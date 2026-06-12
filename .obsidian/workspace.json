@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "d0b749f8eeb8b9f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "24a25ac3b145b8a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fed86c41d4d2541",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6ccb6c96337def0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3caee00400e7123b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4cc82bc6504759d4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b66173e549812c1b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "21eff1521679eae2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3d59e0d44654b811",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e6273c1ec90ff10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e70119d0fc38036",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "700348687a03ad3c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "6d8dd24bb0787a1e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "efb66998ed818a2c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "18ff35a040125738",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "1fed86c41d4d2541",
+  "lastOpenFiles": [
+    "how-to-quarto/CONTEXT.md",
+    "how-to-quarto/01-authoring/00-01-overview.md",
+    "how-to-quarto/01-authoring/01-markdown-basic.md",
+    "how-to-quarto/08-books/00-overview.md",
+    "how-to-quarto/07-websites/00-overview.md",
+    "how-to-quarto/04-documents/00-overview.md",
+    "how-to-quarto/03-tools/00-overview.md",
+    "how-to-quarto/02-computations/00-overview.md",
+    "how-to-quarto/01-authoring/00-overview.md",
+    "how-to-quarto/08-books/00-08-overview.md",
+    "how-to-quarto/07-websites/00-07-overview.md",
+    "how-to-quarto/04-documents/00-04-overview.md",
+    "how-to-quarto/03-tools/00-03-overview.md",
+    "how-to-quarto/02-computations/00-02-overview.md",
+    "how-to-quarto/02-computations/02-00-overview.md",
+    "10.md",
+    "how-to-quarto/04-documents/10-word-basics.md",
+    "brainstorm/references/books/cascetta_chp_1.md",
+    "Clippings",
+    "how-to-quarto/08-books/04-customizing-book-output.md",
+    "how-to-quarto/08-books/03-book-crossrefs.md",
+    "how-to-quarto/08-books/02-book-structure.md",
+    "how-to-quarto/07-websites/10-custom-listings.md",
+    "how-to-quarto/07-websites/09-document-listings.md",
+    "how-to-quarto/07-websites/08-about-pages.md",
+    "how-to-quarto/08-books/01-books-overview.md",
+    "how-to-quarto/07-websites/06-website-tools.md",
+    "how-to-quarto/08-books",
+    "how-to-quarto/07-websites",
+    "how-to-quarto/03-tools",
+    "how-to-quarto/04-documents",
+    "how-to-quarto/02-computations",
+    "how-to-quarto/01-authoring",
+    "how-to-quarto",
+    "how-to/08-books",
+    "how-to/07-websites",
+    "brainstorm/references/assets/manheim-diagram.svg"
+  ]
+}

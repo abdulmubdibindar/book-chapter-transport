@@ -2,13 +2,23 @@
 
 ## Ikhtisar
 
-_File_ ini berisi arahan dalam membantu saya, dosen Perencanaan Wilayah dan Kota Institut Teknologi Sumatera (ITERA), untuk menuntaskan _book chapter_ tentang Perencanaan Transportasi. Bagian ini akan menghasilkan sebuah dokumen Markdown mentah yang nanti akan diproses menjadi sebuah draft final dalam sesi menulis (`@./menulis`).
+_File_ ini berisi arahan dalam membantu saya, dosen Perencanaan Wilayah dan Kota Institut Teknologi Sumatera (ITERA), untuk menuntaskan _book chapter_ tentang Perencanaan Transportasi. Bagian ini akan menghasilkan sebuah dokumen Markdown mentah yang nanti akan diproses menjadi sebuah draft final dalam sesi menulis (`@../menulis`).
+
+## Isi Direktori
+
+```text
+book-chapter-transport
+└── brainstorm
+    ├── assets (tempat menyimpan referensi, seperti gambar, tabel, dan lain sebagainya)
+    ├── books (tempat menyimpan referensi buku-buku yang akan digunakan dalam penulisan book chapter)
+    └── output (tempat menyimpan hasil _brainstorming_ untuk book chapter)
+```
 
 ## Gambaran Umum isi Buku
 
-Perumusan isi buku ada di `@book-overview.md`. Ingat bahwa ini adalah sesi branstorming, sehingga isi `@book-overview.md` sangat banyak berubah.
+Perumusan isi buku ada di `@book-overview.md`. Ingat bahwa ini adalah sesi _brainstorming_, sehingga isi `@book-overview.md` akan sangat sering berubah.
 
-## Skills yang Perlu Diterapkan
+## Skills yang Bisa Diterapkan
 
 Ketika saya meminta Anda melakukan sesuatu
 
@@ -16,37 +26,92 @@ Ketika saya meminta Anda melakukan sesuatu
 | ----------------- | -------------------------------- |
 | `unify-paragraph` | "satukan paragraf"               |
 
+## Figur (Gambar, Tabel, Grafik)
 
-## Gaya Tulisan
+Pikirkan apa ilustrasi yang cocok untuk memperjelas suatu paragraf. Berikan deskripsi figur yang pas di dalam sintaks komentar `<!--  -->` agar saya bisa mengusahakannya sendiri.
 
-Terapkan karakteristik berikut untuk gaya penulisan saya:
-1. **Pemilihan Kata yang Lebih Natural dan Membumi**: Menghindari jargon akademis yang berlebihan atau kaku (misalnya mengganti "titik episentrum" menjadi "pusat", dan "efisiensi ekonomi" menjadi "menghemat biaya perjalanan").
-2. **Memecah Kalimat Kompleks**: Mengurai kalimat yang terlalu panjang dan padat menjadi beberapa kalimat yang lebih pendek dan ringkas agar alur baca lebih nyaman.
-3. **Transisi Kalimat yang Jelas**: Menggunakan frasa penghubung (seperti "Hal ini tercermin dari..." atau "Fenomena ini tak lain adalah...") untuk menjaga kohesi dan kelancaran logika antar kalimat.
-4. **Spesifik dan Kontekstual**: Memilih padanan kata yang lebih spesifik sesuai dengan konteks transportasi (misal: "simpul transportasi utama" menjadi "stasiun kereta api").
+## Referensi Literatur
 
-Secara umum, gaya penulisan yang diharapkan adalah **akademis yang komunikatif dan mengalir**, berfokus pada keterbacaan yang tinggi tanpa mengurangi substansi ilmiah.
+Saya menggunakan sumber-sumber yang langsung berada di dalam direktori ini (`@brainstorm`). Sumber-sumber tersebut dapat berupa:
 
-Saya akan mendemonstrasikan gaya saya menulis dengan memparafrase tulisan dari model AI seperti berikut:
-
-> [!NOTE]
-> ### Sumber AI
-> Dinamika urbanisasi di Indonesia telah menempatkan kawasan stasiun kereta api sebagai titik episentrum pertumbuhan ekonomi sekaligus area dengan tekanan spasial yang ekstrem. Fenomena munculnya permukiman padat dengan karakteristik informal atau _slum_ di lahan seluas 5,5 hektar yang berdampingan langsung dengan simpul transportasi utama bukanlah sebuah kebetulan geografis, melainkan hasil dari kebutuhan masyarakat berpenghasilan rendah (MBR) untuk mendekati pusat mobilitas demi efisiensi ekonomi.
-
-> [!NOTE]
-> ### Parafrase saya
-> Dinamika urbanisasi di Indonesia telah menjadikan kawasan stasiun kereta api sebagai pusat pertumbuhan ekonomi sekaligus kawasan yang memiliki tekanan spasial ekstrem. Hal ini tercermin dari fenomena permukiman padat dengan karakteristik informal atau _slum_ di lahan seluas 5,5 hektar yang berdampingan langsung dengan stasiun kereta api. Fenomena ini tak lain adalah hasil dari kebutuhan masyarakat berpenghasilan rendah (MBR) untuk mendekati pusat mobilitas demi menghemat biaya perjalanan mereka.
-
-## Sumber-sumber 
-
-Saya menggunakan sumber-sumber yang ada di `@references`. Sumber-sumber tersebut dapat berupa:
-
-- buku → `@references/books`
-- aset-aset berupa gambar, tabel, dataset, dan sejenisnya → `@references/assets`
+- buku → `@books`
+- aset-aset berupa gambar, tabel, dataset, dan sejenisnya → `@assets`
 - ...(akan ditambahkan kemudian)
 
-Dalam direktori `@references/books` tersebut saya juga menyediakan ringkasan per buku
+### Buku-buku
 
-|    buku asli    |   file rangkuman      |
-|-----------------|-----------------------|
-| `@Cascetta_Transportatio...`  |  `@cascetta_overview` |
+Berikut adalah _textbook-textbook_ yang saya gunakan dalam penulisan _book chapter_ ini.
+
+#### [[@hensher2007handbook]]
+
+```bibtex
+@book{hensher2007handbook,
+  title={Handbook of Transport Modelling},
+  author={Hensher, D.A. and Button, K.J. and Button, K.},
+  isbn={9780080453767},
+  lccn={01371524},
+  series={Handbook of Transport Modelling},
+  url={https://books.google.co.id/books?id=oYMgAQAAMAAJ},
+  year={2007},
+publisher={Emerald Group Publishing Limited}
+}
+```
+
+#### [[@manheim1979fundamentals]]
+
+```bibtex
+@book{manheim1979fundamentals,
+  title={Fundamentals of Transportation Systems Analysis: Basic Concepts},
+  author={Manheim, M.L.},
+  number={v. 1},
+  isbn={9780262632898},
+  series={MIT Press Classic},
+  url={https://books.google.co.id/books?id=5jplswEACAAJ},
+  year={1979},
+  publisher={MIT Press}
+}
+
+```
+
+#### [[@anderson1995guidelines]]
+
+```bibtex
+@book{anderson1995guidelines,
+  title={Guidelines for Preparing Urban Plans},
+  author={Anderson, L.T.},
+  isbn={9781884829079},
+  lccn={94077951},
+  url={https://books.google.co.id/books?id=bdaAswEACAAJ},
+  year={1995},
+  publisher={Planners Press, American Planning Association}
+}
+
+```
+
+#### [[@cascetta2009transportation]]
+
+```bibtex
+@book{cascetta2009transportation,
+  title={Transportation Systems Analysis: Models and Applications},
+  author={Cascetta, E.},
+  isbn={9780387758572},
+  lccn={2009926028},
+  series={Springer Optimization and Its Applications},
+  url={https://books.google.co.uk/books?id=AbU69bKmVScC},
+  year={2009},
+  publisher={Springer US}
+}
+```
+
+#### [[@tamin2019perencanaan]]
+
+```bibtex
+@book{tamin2019perencanaan,
+  title={Perencanaan, pemodelan, dan rekayasa transportasi: teori, contoh soal, dan aplikasi},
+  author={Tamin, O.Z.},
+  editor={Warsidi, E.},
+  year={2019},
+  publisher={ITB Press},
+  address={Bandung}
+}
+```

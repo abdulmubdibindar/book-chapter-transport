@@ -1,0 +1,27 @@
+**1. Introduction** Metode longitudinal mencakup berbagai macam teknik analitis, namun fokus utama dalam bidang pemodelan transportasi adalah analisis panel, yaitu sebuah analisis yang didasarkan pada kombinasi data _cross-sectional_ dan longitudinal.
+
+**2. Panel Surveys as a Means of Collecting Longitudinal Data** Perilaku perjalanan sering kali paling tepat direpresentasikan sebagai sebuah proses stokastik, di mana perubahan atau kejadian tertentu berlangsung dan dapat dicatat seiring berjalannya waktu. Survei panel menyediakan sarana untuk mengobservasi proses stokastik pada titik-titik waktu yang diskrit, baik berupa transisi antar status diskrit maupun perubahan nilai pengukuran kontinu.
+
+**3. Cross-Sectional vs. Longitudinal Analyses** Penggunaan data longitudinal (survei panel) memiliki keunggulan yang jauh lebih besar dibandingkan survei statis (_cross-sectional_), meliputi kemampuan mengamati perubahan secara langsung, melakukan pengukuran yang lebih efisien secara statistik, membuat peramalan yang lebih koheren, menyelidiki dinamika perilaku perjalanan, mengontrol efek heterogenitas yang tidak teramati, dan memantau tren populasi. Hal ini sangat penting untuk mengungkap dinamika yang tidak dapat dijelaskan hanya dengan menggunakan data _cross-sectional_.
+
+**4. Travel Behavior Dynamics** Perilaku perjalanan tidak selalu berada dalam kondisi ekuilibrium yang statis karena adanya keterbatasan kognitif, informasi yang tidak lengkap, serta kebutuhan waktu untuk proses adaptasi. Oleh karena itu, penting untuk memandang perilaku manusia sebagai proses adaptasi dinamis, di mana perilaku tersebut dapat menunjukkan asimetri, histeresis, dan fenomena ketergantungan pada riwayat masa lalu (_path dependent_). Pendekatan statis sering kali tidak mampu menghasilkan peramalan permintaan yang akurat untuk perilaku yang pada dasarnya bersifat dinamis.
+
+**5. Stochastic Processes** Perilaku manusia dapat diformulasikan ke dalam struktur proses stokastik dinamis dengan menetapkan ruang status (_state space_) pada waktu diskrit atau kontinu. Pendekatan ini diekspresikan dalam beberapa variasi model:
+
+- _Renewal processes_: Waktu singgah atau durasi antar kejadian didistribusikan secara identik dan independen.
+- _Markov renewal processes_ dan _Markov processes_: Probabilitas sebuah transisi hanya bergantung pada status saat ini dan tidak bergantung pada riwayat kejadian sebelumnya (_history independence_).
+- _Markov chains_: Rantai Markov ini diaplikasikan pada serangkaian status perilaku diskrit yang direkam pada gelombang-gelombang observasi (waktu diskrit) dalam survei panel.
+
+**6. Discrete Time Panel Data and Analyses** Karena probabilitas transisi tidak selalu sama untuk semua unit perilaku yang diobservasi, model perlu mengintegrasikan berbagai variabel penjelas untuk analisis data panel waktu diskrit. Rangkuman teknik analitis di sub-bab ini meliputi:
+
+- **Linear models:** Memecah komponen kesalahan menjadi variasi lintas-unit, variasi terkait waktu, dan kesalahan acak murni dengan menggunakan model efek tetap (_fixed-effects_) atau efek acak (_random-effects_) untuk mengatasi heterogenitas yang tak teramati.
+- **Distributed-lag models:** Mengakomodasi respons penyesuaian, di mana perilaku saat ini direpresentasikan sebagai fungsi dari rata-rata terbobot dari nilai-nilai variabel penjelas di masa lalu.
+- **Lagged dependent variables:** Menggambarkan respons perilaku sebagai pergeseran bertahap yang mana variabel dependen saat ini bergantung pada nilai variabel dependen di waktu sebelumnya.
+- **Non-linear models:** Digunakan untuk variabel dependen yang terbatas pada analisis transportasi, seperti pilihan kategori diskrit, variabel pengukuran terpotong, atau perhitungan bilangan bulat.
+- **Dynamic models:** Menggambarkan model di mana status proses saat ini bergantung pada serangkaian status masa lalu dan durasinya.
+- **Initial conditions:** Menyelesaikan masalah asumsi dan estimasi ketika riwayat awal atau prasampe (_presample history_) dari proses perilaku belum sepenuhnya teramati.
+- **State dependence vs. heterogeneity:** Memisahkan secara analitis antara _true state dependence_ (pengalaman masa lalu murni mengubah preferensi) dengan _spurious state dependence_ (keteraturan pilihan yang disebabkan oleh heterogenitas tak terukur).
+
+**7. Issues in Panel Survey Design** Penyelenggaraan survei panel menghadapi kesulitan operasional yang unik karena harus mensurvei kelompok responden yang sama berulang kali, yang menimbulkan potensi masalah seperti kelelahan panel, bias atrisi (pengurangan sampel), serta kesulitan melacak responden yang berpindah tempat tinggal. Meskipun demikian, tantangan ini dapat dikelola dengan berbagai metode pembobotan statistik, dan biaya survei panel sering kali lebih rendah dibandingkan dengan melakukan survei _cross-sectional_ independen secara berulang.
+
+**8. Conclusions** Di balik kompleksitas pengembangan, desain survei, dan administrasi datanya, metode dan data longitudinal menyediakan sarana analitis yang sangat kuat untuk analisis transportasi. Kapabilitas komputasi modern dan kemajuan metodologis kini menjadikan prediksi menggunakan model longitudinal dan mekanisme mikrosimulasi sangat praktis, sehingga analisis transportasi dapat menjadi jauh lebih koheren, akurat, dan kaya secara perilaku.

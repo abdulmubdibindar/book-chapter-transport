@@ -1,0 +1,34 @@
+Bab 4 dari buku ini membahas secara komprehensif mengenai Model Permintaan Perjalanan (*Travel-Demand Models*). Berikut adalah ringkasan mendalam untuk masing-masing sub-babnya:
+
+**4.1 Pendahuluan (*Introduction*)**
+Permintaan perjalanan pada dasarnya bukan merupakan tujuan akhir, melainkan turunan dari kebutuhan manusia untuk melakukan berbagai aktivitas ekonomi dan sosial di lokasi yang berbeda. Sub-bab ini mengklasifikasikan model permintaan berdasarkan empat kriteria utama:
+1. **Jenis Pilihan:** Dibagi menjadi pilihan mobilitas (keputusan jangka panjang seperti lokasi tempat tinggal, tempat kerja, dan kepemilikan kendaraan) dan pilihan perjalanan (keputusan jangka pendek seperti frekuensi, tujuan, moda, dan rute),.
+2. **Pendekatan Urutan Pilihan:** Terdiri dari model berbasis perjalanan (*trip-based*) yang mengasumsikan setiap perjalanan independen, model rantai perjalanan (*trip-chaining*) yang mempertimbangkan ketergantungan antar-perjalanan dalam satu rangkaian, dan model berbasis aktivitas (*activity-based*),,.
+3. **Tingkat Detail:** Model agregat (variabel mewakili kelompok/zona) versus disagregat (variabel merujuk pada individu).
+4. **Asumsi Dasar:** Model deskriptif (berdasarkan hubungan empiris/statistik) versus model perilaku (*behavioral*) yang diturunkan dari asumsi eksplisit tentang perilaku pengambilan keputusan pengguna.
+
+**4.2 Sistem Model Permintaan Berbasis Perjalanan (*Trip-based Demand Model Systems*)**
+Model ini memprediksi jumlah rata-rata perjalanan dengan karakteristik tertentu pada periode waktu tertentu. Umumnya, model ini menggunakan struktur pembagian parsial (*partial share*) yang dikenal sebagai "Model Empat Tahap" (*Four-Step Model*), yang memecah keputusan menjadi: produksi/frekuensi perjalanan, distribusi (tujuan), pilihan moda, dan pilihan rute,. 
+Dalam sub-bab **4.2.1 (*Random Utility Models for Trip Demand*)**, dijelaskan bahwa sistem model ini dapat diturunkan secara konsisten dari teori utilitas acak (*random utility theory*). Pilihan dipengaruhi oleh utilitas sistematis dan residu acak. Untuk menghubungkan berbagai tahap pilihan (misalnya, bagaimana biaya rute memengaruhi pilihan moda), model ini menggunakan variabel utilitas inklusif atau *Expected Maximum Perceived Utility* (EMPU).
+
+**4.3 Contoh Model Permintaan Berbasis Perjalanan (*Examples of Trip-based Demand Models*)**
+Sub-bab ini merinci implementasi dari masing-masing tahap pada model berbasis perjalanan:
+*   **4.3.1 Karakteristik Spasial dan Temporal:** Untuk produksi perjalanan (frekuensi), model dapat berupa tabel klasifikasi silang (deskriptif) atau model utilitas acak seperti *multinomial logit* yang memperhitungkan faktor sosioekonomi dan aksesibilitas,. Untuk model distribusi, pendekatan deskriptif menggunakan model gravitasi dengan fungsi hambatan, sedangkan pendekatan perilaku menggunakan model pilihan tujuan (*destination choice*) berbasis logit yang mempertimbangkan atribut daya tarik zona dan biaya transportasi,.
+*   **4.3.2 Model Pilihan Moda:** Model ini memprediksi fraksi pengguna yang memilih moda tertentu. Atributnya mencakup tingkat layanan (waktu, biaya) dan sosioekonomi, yang dapat digunakan untuk mengestimasi Nilai Waktu (*Value of Time* / VOT) dari pengguna,.
+*   **4.3.3 Model Pilihan Rute:** Untuk jaringan jalan (layanan kontinu), pilihan biasanya bersifat pra-perjalanan (*pre-trip*). Penggunaan model *multinomial logit* standar sering bermasalah karena properti *Independence of Irrelevant Alternatives* (IIA) saat rute tumpang tindih (*overlapping*), sehingga dikembangkan model C-logit (dengan faktor kebersamaan) atau model *probit*,. Untuk angkutan umum dengan jadwal tidak teratur, model menggunakan konsep *hyperpath* atau strategi perjalanan campuran pra-perjalanan dan *en-route*.
+*   **4.3.4 Sistem Model Permintaan:** Memberikan contoh nyata (misalnya, sistem SIMPT di Italia) yang mengintegrasikan pilihan mobilitas (kepemilikan SIM dan mobil) dengan model perjalanan antar-kota menggunakan struktur *hierarchical logit*,.
+
+**4.4 Model Permintaan Rantai Perjalanan (*Trip-Chaining Demand Models*)**
+Model ini mengatasi kelemahan model *trip-based* dengan mengasumsikan bahwa pilihan pada setiap perjalanan dalam satu rangkaian (misalnya dari rumah ke tempat kerja, lalu ke toko, lalu pulang) saling memengaruhi,. Model ini sering dibangun berdasarkan konsep "aktivitas utama" (*primary activity*), di mana satu tujuan dianggap sebagai penahan (*anchor*) berdasarkan hierarki tujuan, durasi, atau jarak. Strukturnya meliputi pemilihan tujuan utama, jenis perjalanan (langsung atau berantai), tujuan sekunder, dan urutan moda.
+
+**4.5 Model Permintaan Berbasis Aktivitas (*Activity-Based Demand Models*)**
+Merupakan evolusi lebih lanjut di mana perjalanan dipandang murni sebagai hasil dari kebutuhan untuk berpartisipasi dalam berbagai aktivitas di lokasi dan waktu yang berbeda. Model ini sangat rinci dan mempertimbangkan kendala waktu dan ruang dari setiap anggota rumah tangga. Pendekatannya dapat berupa pemodelan ekonometrik (persamaan utilitas acak) atau mikrosimulasi komputer yang menghasilkan pola aktivitas rumah tangga harian, yang kemudian diterjemahkan menjadi rute perjalanan,. Pendekatan ini mampu mengevaluasi kebijakan manajemen permintaan seperti *telecommuting* atau jam kerja fleksibel.
+
+**4.6 Aplikasi Model Permintaan (*Applications of Demand Models*)**
+Model permintaan dapat digunakan untuk tiga hal utama:
+1. Estimasi permintaan saat ini dan prediksi perubahan di masa depan akibat proyek transportasi atau perubahan tata guna lahan.
+2. Alat analisis kuantitatif mobilitas untuk memahami pengaruh faktor seperti usia, jenis kelamin, dan pendapatan terhadap perilaku perjalanan.
+3. Sebagai masukan untuk model penugasan (*assignment models*), di mana fungsi permintaan menjadi bergantung pada biaya transportasi yang dipengaruhi oleh tingkat kemacetan jaringan,. Perlu diingat bahwa hasil model permintaan adalah nilai ekspektasi dari variabel acak, sehingga selalu memiliki varians.
+
+**4.7 Model Permintaan Transportasi Barang (*Freight Transportation Demand Models*)**
+Permintaan transportasi barang jauh lebih kompleks daripada penumpang karena melibatkan sistem ekonomi secara luas dan berbagai aktor seperti produsen, konsumen, *shipper*, dan *carrier*,. Pemodelan ini umumnya mengintegrasikan model makroekonomi, khususnya model *MultiRegional Input-Output* (MRIO), yang mensimulasikan nilai pertukaran moneter antar-sektor ekonomi di berbagai zona,. Setelah matriks asal-tujuan dalam nilai moneter didapatkan, nilai tersebut dikonversi menjadi kuantitas fisik (ton). Pemilihan moda angkutan barang kemudian disimulasikan menggunakan model utilitas acak yang sering mempertimbangkan biaya logistik komprehensif, seperti biaya manajemen pesanan, inventaris, kemungkinan kerusakan, dan biaya transportasi itu sendiri,.

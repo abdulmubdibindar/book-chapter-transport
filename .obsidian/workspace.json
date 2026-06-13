@@ -4,11 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "24a25ac3b145b8a3",
+        "id": "e2db5f54067545b2",
         "type": "tabs",
         "children": [
           {
-            "id": "1fed86c41d4d2541",
+            "id": "13da22ec966c530a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "brainstorm/CONTEXT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CONTEXT"
+            }
+          }
+        ]
+      },
+      {
+        "id": "4bec06751d374f24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d3d94f4f068fc5e",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -176,44 +196,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "1fed86c41d4d2541",
+  "active": "13da22ec966c530a",
   "lastOpenFiles": [
+    "brainstorm/books/@tamin2019perencanaan.md",
+    "brainstorm/@tamin2019perencanaan.md",
+    "brainstorm/book-overview.md",
+    "brainstorm/books/cascetta/cascetta_chp_3.md",
+    "brainstorm/books/cascetta/cascetta_chp_10.md",
+    "brainstorm/books/cascetta/@cascetta2009transportation.md",
+    "brainstorm/books/cascetta/cascetta_rangkuman.md",
+    "brainstorm/books/cascetta/cascetta_chp_9.md",
+    "brainstorm/books/cascetta/cascetta_chp_8.md",
+    "brainstorm/books/cascetta/cascetta_chp_7.md",
+    "brainstorm/books/cascetta/cascetta_chp_6.md",
+    "brainstorm/books/cascetta/cascetta_chp_5.md",
+    "brainstorm/books/cascetta/cascetta_chp_4.md",
+    "brainstorm/books/hensher-button/@hensher2007handbook.md",
+    "brainstorm/books/pdf",
+    "brainstorm/books/cascetta/cascetta_chp_2.md",
+    "brainstorm/books/cascetta/cascetta_chp_1.md",
+    "brainstorm/books/@cascetta2009transportation.md",
+    "brainstorm/books/@@cascetta2009transportation.md",
+    "brainstorm/books/cascetta",
+    "brainstorm/CONTEXT.md",
+    "brainstorm/output",
+    "brainstorm/references/books/@anderson1995guidelines.md",
+    "brainstorm/references/output",
+    "brainstorm/assets/Pasted image 20260612230823.png",
+    "menulis/CONTEXT.md",
+    "GEMINI.md",
     "how-to-quarto/CONTEXT.md",
-    "how-to-quarto/01-authoring/00-01-overview.md",
-    "how-to-quarto/01-authoring/01-markdown-basic.md",
-    "how-to-quarto/08-books/00-overview.md",
-    "how-to-quarto/07-websites/00-overview.md",
-    "how-to-quarto/04-documents/00-overview.md",
-    "how-to-quarto/03-tools/00-overview.md",
-    "how-to-quarto/02-computations/00-overview.md",
-    "how-to-quarto/01-authoring/00-overview.md",
-    "how-to-quarto/08-books/00-08-overview.md",
-    "how-to-quarto/07-websites/00-07-overview.md",
-    "how-to-quarto/04-documents/00-04-overview.md",
-    "how-to-quarto/03-tools/00-03-overview.md",
-    "how-to-quarto/02-computations/00-02-overview.md",
-    "how-to-quarto/02-computations/02-00-overview.md",
-    "10.md",
-    "how-to-quarto/04-documents/10-word-basics.md",
-    "brainstorm/references/books/cascetta_chp_1.md",
-    "Clippings",
-    "how-to-quarto/08-books/04-customizing-book-output.md",
-    "how-to-quarto/08-books/03-book-crossrefs.md",
-    "how-to-quarto/08-books/02-book-structure.md",
-    "how-to-quarto/07-websites/10-custom-listings.md",
-    "how-to-quarto/07-websites/09-document-listings.md",
-    "how-to-quarto/07-websites/08-about-pages.md",
-    "how-to-quarto/08-books/01-books-overview.md",
-    "how-to-quarto/07-websites/06-website-tools.md",
-    "how-to-quarto/08-books",
-    "how-to-quarto/07-websites",
-    "how-to-quarto/03-tools",
-    "how-to-quarto/04-documents",
-    "how-to-quarto/02-computations",
-    "how-to-quarto/01-authoring",
-    "how-to-quarto",
-    "how-to/08-books",
-    "how-to/07-websites",
-    "brainstorm/references/assets/manheim-diagram.svg"
+    "brainstorm/references/books/hensher-button/Chapter 8 - Stated Preference Experimental Design Strategies.md",
+    "brainstorm/references/books/hensher-button/Chapter 9 - Towards a Land-Use and Transport Interaction Framework.md",
+    "brainstorm/references/books/larz-t-anderson.md",
+    "brainstorm/references/books/hensher-button",
+    "clean.sh",
+    "Untitled",
+    "brainstorm/references/books/hensher-button-modelling",
+    "brainstorm/references/books/Larz T. Anderson - Guidelines for Preparing Urban Plans-Planners Press (1995).pdf",
+    "brainstorm/references/books/Button & Hensher_Handbook of Transport Strategy, Policy and Institutions__2005.pdf",
+    "brainstorm/assets/manheim-diagram.svg"
   ]
 }

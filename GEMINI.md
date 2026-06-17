@@ -4,6 +4,7 @@ Proyek ini adalah sebuah _book chapter_ (bab buku) tentang transportasi dengan j
 
 ## Direktori Kerja
 
+```text
 book-chapter-transport
 ├── .agents
 │   └── skills
@@ -23,6 +24,7 @@ book-chapter-transport
 │   ├── 07-websites
 │   └── 08-books
 └── menulis
+```
 
 
 ## Peta Kerja
@@ -30,9 +32,11 @@ book-chapter-transport
 
 | Ketika Anda...                                      | Pergi ke...       | Lalu baca ini...                          |
 |-----------------------------------------------------|-------------------|-------------------------------------------|
-| Baru merumuskan ide untuk menghasilkan buku         | `@brainstorm/`    | [`@CONTEXT.md`](brainstorm/CONTEXT.md)    |
-| Betul-betul menulis buku yang menghasilkan keluaran | `@menulis/`       | [`@CONTEXT.md`](menulis/CONTEXT.md)       |
-| Ingin mempelajari dokumentasi tentang Quarto        | `@how-to-quarto/` | [`@CONTEXT.md`](how-to-quarto/CONTEXT.md) |
+| Baru merumuskan ide untuk menghasilkan buku         | `@brainstorm`     | [`@CONTEXT.md`](brainstorm/CONTEXT.md)    |
+| Merevisi keluaran ide                               | `@brainstorm`     | [`@CONTEXT.md`](brainstorm/CONTEXT.md)    |
+| Mendapatkan revisi dari tulisan asli                | `@menulis`        | [`@CONTEXT.md`](menulis/CONTEXT.md)       |
+| Betul-betul menulis buku yang menghasilkan keluaran | `@menulis`        | [`@CONTEXT.md`](menulis/CONTEXT.md)       |
+| Ingin mempelajari dokumentasi tentang Quarto        | `@how-to-quarto`  | [`@CONTEXT.md`](how-to-quarto/CONTEXT.md) |
 
 ## Aturan Umum Proyek
 
@@ -43,3 +47,7 @@ Bahasa utama yang digunakan dalam proyek ini adalah bahasa Indonesia. Bahasa Ing
 - Membuat asumsi sendiri tanpa mengajukan pertanyaan klarifikasi
 - Membuat pilihan sendiri ketika Anda tidak yakin
 - Menjadi _black box_ dengan mengerjakan sesuatu yang tidak saya eksplisit suruh, tanpa memberi tahu saya apa yang Anda lakukan, bagaimana Anda melakukannya, dan memaparkan apa akibat yang akan timbul dari pekerjaan Anda
+
+## Apa yang HARUS dilakukan
+
+- Tidak melakukan larangan saya

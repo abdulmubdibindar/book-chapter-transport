@@ -38,7 +38,9 @@ After this initial comprehensive definition of the transportation system has bee
 #### THE INTERRELATION OF TRANSPORTATION AND ACTIVITY SYSTEMS
 The transportation system of a region is tightly interrelated with the socioeconomic system. Indeed, the transportation system will usually affect the way in which the socioeconomic system grows and changes. And changes in the socioeconomic system will in turn call forth changes in the transportation system. This interrelationship is fundamental to our view of transportation systems analysis. The system of interest can be defined by three basic variables: T, the transportation system; A, the activity system, that is, the pattern of social and economic activities; and F, the pattern of flows in the transportation system, that is, the origins, destinations, routes, and volumes of goods and people moving through the system. Three kinds of relationships can be identified among these variables (see figure 1.1):
 
+[[manheim-diagram.drawio.svg]]
 
+Figure 1.1
 
 1. The flow pattern in the transportation system is determined by both the transportation system and the activity system.
 2. The current flow pattern will cause changes over time in the activity system: through the pattern of transportation services provided and through the resources consumed in providing that service.

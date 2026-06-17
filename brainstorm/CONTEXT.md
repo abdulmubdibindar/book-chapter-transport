@@ -1,7 +1,6 @@
 # _Brainstorm_ Isi Bab Buku
 
 ## Ikhtisar
-
 _File_ ini berisi arahan dalam membantu saya, dosen Perencanaan Wilayah dan Kota Institut Teknologi Sumatera (ITERA), untuk menuntaskan _book chapter_ tentang Perencanaan Transportasi. Bagian ini akan menghasilkan sebuah dokumen Markdown mentah yang nanti akan diproses menjadi sebuah draft final dalam sesi menulis (`@../menulis`).
 
 ## Isi Direktori
@@ -9,37 +8,47 @@ _File_ ini berisi arahan dalam membantu saya, dosen Perencanaan Wilayah dan Kota
 ```text
 book-chapter-transport
 └── brainstorm
-    ├── assets (tempat menyimpan referensi, seperti gambar, tabel, dan lain sebagainya)
-    ├── books (tempat menyimpan referensi buku-buku yang akan digunakan dalam penulisan book chapter)
-    └── output (tempat menyimpan hasil _brainstorming_ untuk book chapter)
+    ├── CONTEXT.md         → konteks dan arahan untuk sesi brainstorming ini
+    ├── overview-bab-buku.md → gambaran umum isi bab buku (sering berubah)
+    ├── assets             → aset visual (gambar, diagram SVG, dsb.)
+    │   ├── Pasted image 20260612230823.png
+    │   ├── manheim-diagram.drawio.svg
+    │   └── tamin-diagram.drawio.svg
+    ├── books              → catatan dan ringkasan buku-buku referensi
+    │   ├── @anderson1995guidelines.md
+    │   ├── @fricker2004fundamentals.md  → catatan buku Fricker & Whitford (2004)
+    │   ├── @manheim1979fundamentals.md
+    │   ├── cascetta        → catatan per-bab dari Cascetta (2009)
+    │   ├── hensher-button  → catatan per-bab dari Hensher & Button (2007)
+    │   ├── pdf             → file PDF buku-buku referensi
+    │   └── tamin           → catatan per-bab dari Tamin (2019)
+    ├── legals             → dokumen aturan dan legal
+    │   ├── permen-atrbpn-no-6-tahun-2026.md
+    │   └── permen-atrbpn-no-6-tahun-2026.pdf
+    ├── output             → hasil brainstorming
+    └── pptx               → salindia (slide) presentasi referensi
+        ├── 1_Sistem Transportasi Total.md
+        └── 1_Sistem Transportasi Total.pptx
 ```
 
+## Hasil Brainstorming
+- 2026-06-17: [[20260617 diskusi isi bab]]
 ## Gambaran Umum isi Buku
-
-Perumusan isi buku ada di `@book-overview.md`. Ingat bahwa ini adalah sesi _brainstorming_, sehingga isi `@book-overview.md` akan sangat sering berubah.
-
-## Skills yang Bisa Diterapkan
-
-Ketika saya meminta Anda melakukan sesuatu
-
-| nama skill        | Lakukan ketika ada kata kunci... |
-| ----------------- | -------------------------------- |
-| `unify-paragraph` | "satukan paragraf"               |
+Perumusan isi buku ada di `@overview-bab-buku.md`. Ingat bahwa ini adalah sesi _brainstorming_, sehingga isi `@overview-bab-buku.md` akan sangat sering berubah.
 
 ## Figur (Gambar, Tabel, Grafik)
-
 Pikirkan apa ilustrasi yang cocok untuk memperjelas suatu paragraf. Berikan deskripsi figur yang pas di dalam sintaks komentar `<!--  -->` agar saya bisa mengusahakannya sendiri.
 
 ## Referensi Literatur
-
 Saya menggunakan sumber-sumber yang langsung berada di dalam direktori ini (`@brainstorm`). Sumber-sumber tersebut dapat berupa:
 
 - buku → `@books`
 - aset-aset berupa gambar, tabel, dataset, dan sejenisnya → `@assets`
+- dokumen aturan dan legal → `@legals`
+- salindia (_slide_) presentasi → `@pptx`
 - ...(akan ditambahkan kemudian)
 
 ### Buku-buku
-
 Berikut adalah _textbook-textbook_ yang saya gunakan dalam penulisan _book chapter_ ini.
 
 #### [[@hensher2007handbook]]
@@ -113,5 +122,18 @@ publisher={Emerald Group Publishing Limited}
   year={2019},
   publisher={ITB Press},
   address={Bandung}
+}
+```
+
+#### [[@fricker2004fundamentals]]
+
+```bibtex
+@book{fricker2004fundamentals,
+  title={Fundamentals of Transportation Engineering: A Multimodal Systems Approach},
+  author={Fricker, J.D. and Whitford, R.K.},
+  isbn={9780130351241},
+  url={https://books.google.co.id/books/about/Fundamentals_of_Transportation_Engineeri.html?id=MYMnAQAAMAAJ&redir_esc=y},
+  year={2004},
+  publisher={Pearson Prentice Hall}
 }
 ```

@@ -6,6 +6,8 @@ Bagian ini dijalankan ketika sesi brainstorming sudah selesai. Bagian ini akan m
 
 Saya ingin menggunakan Quarto untuk memproduksi buku ini. Format akhir dokumennya adalah `.docx`.
 
+Ketika menghasilkan teks keluaran, tulis log pengerjaan dalam [log](./log/) dengan format nama `YYYYMMDD-(ringkasan singkat hasil).md`.
+
 ## Format Akhir
 
 - Ekstensi `.docx` (Microsoft Word).
@@ -39,3 +41,7 @@ Saya akan mendemonstrasikan gaya saya menulis dengan memparafrase tulisan dari m
 1. Miringkan setiap istilah asing dari bahasa Indonesia
 2. Dalam menuliskan suatu paragraf, jika ada suatu _figure_ (tabel, gambar, blok) yang diacu, saya tidak pernah menunjukkan lokasinya ("di atas" atau "di bawah"), tetapi saya langsung menggunakan cross-referencing (pelajari [`@14-crossref-basic.md`](../how-to-quarto/01-authoring/14-crossref-basic.md) hingga [`@16-crossref-div-syntax.md`](../how-to-quarto/01-authoring/16-crossref-div-syntax.md`) 
 3. Saya selalu menempatkan tulisan sebelum _figure_, sehingga penjelasan _figure_ selalu mendahului _figure_ saya.
+
+## Revisi dari Tulisan Akhir
+
+Jika ada revisi terhadap tulisan akhir, masuk lagi ke direktori brainstorming di [brainstorming/CONTEXT.md](../brainstorm/CONTEXT.md)

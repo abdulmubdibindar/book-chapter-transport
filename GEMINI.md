@@ -10,6 +10,9 @@ book-chapter-transport
 │   └── skills
 │       ├── buat-tabel
 │       ├── directory-catalog
+│       ├── fix-footnotes
+│       ├── fix-spaces
+│       ├── office-to-markdown
 │       └── unify-paragraph
 ├── .obsidian
 ├── brainstorm
@@ -24,6 +27,7 @@ book-chapter-transport
 │   ├── 07-websites
 │   └── 08-books
 └── menulis
+    └── log
 ```
 
 

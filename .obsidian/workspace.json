@@ -4,31 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "e2db5f54067545b2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "13da22ec966c530a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "brainstorm/CONTEXT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CONTEXT"
-            }
-          }
-        ]
-      },
-      {
         "id": "4bec06751d374f24",
         "type": "tabs",
         "children": [
           {
             "id": "1d3d94f4f068fc5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "brainstorm/output/20260617 diskusi isi bab.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260617 diskusi isi bab"
+            }
+          }
+        ]
+      },
+      {
+        "id": "54d113e5eeab9f1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30eeea041870662d",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -196,14 +196,35 @@
       "bases:Create new base": false
     }
   },
-  "active": "13da22ec966c530a",
+  "active": "30eeea041870662d",
   "lastOpenFiles": [
+    "brainstorm/output/20260617 diskusi isi bab.md",
+    "brainstorm/CONTEXT.md",
+    "brainstorm/books/@fricker2004fundamentals.md",
+    "brainstorm/overview-bab-buku.md",
+    "@fricker2004fundamentals.md",
+    "brainstorm/books/pdf/(Rose-Hulman CE380) Robert K Whitford, Jon D Fricker - Fundamentals of Transportation Engineering_ A Multimodal Systems Approach (2nd Edition)-The Scholar Collection (2018).pdf",
+    "brainstorm/legals/permen-atrbpn-no-6-tahun-2026.md",
+    "brainstorm/pptx/1_Sistem Transportasi Total.md",
+    "brainstorm/output/report_pdf.json",
+    "brainstorm/output/report_pptx.json",
+    "brainstorm/legal",
+    "brainstorm/legals/permen-atrbpn-no-6-tahun-2026.pdf",
+    "brainstorm/legals",
+    "brainstorm/New folder",
+    "brainstorm/books/tamin/@tamin2019perencanaan.md",
+    "brainstorm/books/tamin/00-preface.md",
+    "brainstorm/books/tamin/1 Pendahuluan.md",
+    "brainstorm/books/tamin/{file%.pdf}.md",
+    "brainstorm/books/tamin/fix_spaces.py",
+    "brainstorm/books/hensher-button/@hensher2007handbook.md",
+    "brainstorm/assets/tamin-diagram.drawio.svg",
+    "brainstorm/books/tamin/2 Pendekatan perencanaan transportasi.md",
+    "brainstorm/books/cascetta/@cascetta2009transportation.md",
+    "brainstorm/books/cascetta/cascetta_chp_10.md",
     "brainstorm/books/@tamin2019perencanaan.md",
     "brainstorm/@tamin2019perencanaan.md",
-    "brainstorm/book-overview.md",
     "brainstorm/books/cascetta/cascetta_chp_3.md",
-    "brainstorm/books/cascetta/cascetta_chp_10.md",
-    "brainstorm/books/cascetta/@cascetta2009transportation.md",
     "brainstorm/books/cascetta/cascetta_rangkuman.md",
     "brainstorm/books/cascetta/cascetta_chp_9.md",
     "brainstorm/books/cascetta/cascetta_chp_8.md",
@@ -211,30 +232,10 @@
     "brainstorm/books/cascetta/cascetta_chp_6.md",
     "brainstorm/books/cascetta/cascetta_chp_5.md",
     "brainstorm/books/cascetta/cascetta_chp_4.md",
-    "brainstorm/books/hensher-button/@hensher2007handbook.md",
     "brainstorm/books/pdf",
     "brainstorm/books/cascetta/cascetta_chp_2.md",
-    "brainstorm/books/cascetta/cascetta_chp_1.md",
-    "brainstorm/books/@cascetta2009transportation.md",
-    "brainstorm/books/@@cascetta2009transportation.md",
     "brainstorm/books/cascetta",
-    "brainstorm/CONTEXT.md",
-    "brainstorm/output",
-    "brainstorm/references/books/@anderson1995guidelines.md",
-    "brainstorm/references/output",
     "brainstorm/assets/Pasted image 20260612230823.png",
-    "menulis/CONTEXT.md",
-    "GEMINI.md",
-    "how-to-quarto/CONTEXT.md",
-    "brainstorm/references/books/hensher-button/Chapter 8 - Stated Preference Experimental Design Strategies.md",
-    "brainstorm/references/books/hensher-button/Chapter 9 - Towards a Land-Use and Transport Interaction Framework.md",
-    "brainstorm/references/books/larz-t-anderson.md",
-    "brainstorm/references/books/hensher-button",
-    "clean.sh",
-    "Untitled",
-    "brainstorm/references/books/hensher-button-modelling",
-    "brainstorm/references/books/Larz T. Anderson - Guidelines for Preparing Urban Plans-Planners Press (1995).pdf",
-    "brainstorm/references/books/Button & Hensher_Handbook of Transport Strategy, Policy and Institutions__2005.pdf",
     "brainstorm/assets/manheim-diagram.svg"
   ]
 }

@@ -48,9 +48,14 @@ Format nama file: `YYYYMMDDxx diskusi isi bab.md`
 
 Berikut adalah hasil diskusi sejauh ini.
 
-- 2026-06-17: [[20260617 diskusi isi bab]]
+- 2026-06-17:
+  - [[20260617a diskusi isi bab]]
+  - [[20260617ar respon diskusi]]
+
 
 --- Akhir bagian yang diperbarui ---
+
+Setiap sesi _brainstorming_ yang dilakukan, jadikan output terakhir sebagai pijakan untuk melanjutkannya.
 
 ## Gambaran Umum isi Buku
 Perumusan isi buku ada di `@overview-bab-buku.md`. Ingat bahwa ini adalah sesi _brainstorming_, sehingga isi `@overview-bab-buku.md` akan sangat sering berubah.

@@ -4,7 +4,30 @@ import os
 import glob
 import sys
 import traceback
-from markitdown import MarkItDown
+import shutil
+import subprocess
+
+try:
+    from markitdown import MarkItDown
+except ModuleNotFoundError:
+    print("Warning: 'markitdown' library is not found in the current Python environment.", file=sys.stderr)
+    uv_path = shutil.which("uv")
+    if uv_path:
+        print("Attempting to install 'markitdown' using 'uv'...", file=sys.stderr)
+        try:
+            subprocess.check_call([uv_path, "pip", "install", "markitdown"])
+            from markitdown import MarkItDown
+        except Exception as install_err:
+            print(f"Error: Failed to install markitdown using uv: {install_err}", file=sys.stderr)
+            sys.exit(1)
+    else:
+        print("'uv' not found. Falling back to standard 'pip'...", file=sys.stderr)
+        try:
+            subprocess.check_call([sys.executable, "-m", "pip", "install", "markitdown"])
+            from markitdown import MarkItDown
+        except Exception as install_err:
+            print(f"Error: Failed to install markitdown using pip: {install_err}", file=sys.stderr)
+            sys.exit(1)
 
 def convert_file(md_instance, file_path, output_dir):
     try:

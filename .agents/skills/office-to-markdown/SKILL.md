@@ -12,7 +12,30 @@ Skill ini digunakan untuk mengonversi dokumen Microsoft Office (`.docx`, `.xlsx`
 Proses konversi memanfaatkan paket Python `markitdown`. Skrip ini mampu memproses satu per satu file atau semua file secara batch dalam sebuah direktori, melanjutkan proses jika terdapat error pada file tertentu, dan memberikan laporan lengkap dalam format JSON.
 
 ## Dependencies
-- Paket Python `markitdown` harus sudah terinstal di environment lokal.
+- Paket Python `markitdown` harus sudah terinstal di environment lokal. Skrip [convert_office.py](file:///C:/Users/LENOVO/book-chapter-transport/.agents/skills/office-to-markdown/scripts/convert_office.py) akan mendeteksi secara otomatis dan menginstalnya jika belum ada.
+- Sistem pengguna disarankan memiliki `uv` untuk proses instalasi yang lebih cepat. Jika tidak ada `uv`, sistem akan menggunakan fallback `pip` standar.
+- Cara menginstal `uv` jika belum tersedia:
+  - **Windows (PowerShell)**:
+    ```powershell
+    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+    ```
+  - **Linux/macOS**:
+    ```bash
+    curl -LsSf https://astral.sh/uv/install.sh | sh
+    ```
+- Sistem pengguna sebaiknya memiliki `conda` sebagai _package manager_ Python. Jika belum, peringatkan dulu pengguna untuk menginstalnya.
+  - Jika sudah, _environment_ bernama 'markitdown' sudah tersedia. Jika belum, minta izin kepada pengguna untuk menjalankan:
+  ```bash
+  conda create -n "markitdown" python=3.12
+  conda activate markitdown
+  ```
+  - Instalasi paket `markitdown` di lingkungan tersebut (akan dicoba otomatis oleh skrip menggunakan `uv` jika tersedia, atau `pip` sebagai fallback):
+  ```bash
+  uv pip install markitdown
+  # ATAU jika tanpa uv:
+  pip install markitdown
+  ```
+- Aktifkan _environment_ `markitdown` dan lanjutkan proses di environment tersebut
 
 ## Quick Start
 Jika pengguna meminta untuk mengonversi folder yang berisi dokumen Word atau Excel:

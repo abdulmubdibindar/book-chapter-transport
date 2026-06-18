@@ -31,6 +31,18 @@ book-chapter-transport
 ```
 
 
+## Keterangan Skill
+
+| Nama Skill | Gunakan untuk |
+|------------|---------------|
+| `buat-tabel` | Membuat berbagai jenis tabel di Quarto markdown dengan format yang tepat (pipe tables, list tables, colspan/rowspan, dan panel/subtables) beserta referensi silangnya. |
+| `directory-catalog` | Memetakan dan membuat ringkasan/katalog isi dokumen yang ada di dalam suatu direktori menjadi satu berkas ringkasan. |
+| `fix-footnotes` | Mendeteksi angka catatan kaki (footnote) polos pada dokumen Markdown dan mengubahnya menjadi format tag HTML `<sup>` secara otomatis dengan analisis batas jumlah rujukan. |
+| `fix-spaces` | Membersihkan spasi ekstra di antara huruf-huruf pada kata dalam dokumen Markdown (akibat kesalahan encoding/konversi dari PDF/Word). |
+| `office-to-markdown` | Mengonversi berkas Microsoft Office (`.docx`, `.xlsx`, `.pptx`) menjadi dokumen berformat Markdown (`.md`) secara lokal menggunakan pustaka Python `markitdown`. |
+| `unify-paragraph` | Menggabungkan baris teks yang terpisah akibat pemisah baris tunggal (line break) menjadi satu paragraf yang utuh dan berkesinambungan. |
+
+
 ## Peta Kerja
 
 

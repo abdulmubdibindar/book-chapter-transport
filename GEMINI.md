@@ -2,6 +2,19 @@
 
 Proyek ini adalah sebuah _book chapter_ (bab buku) tentang transportasi dengan judul chapter 'Perencanaan Transportasi'. Bab buku ini adalah proyek kolaborasi penulisan buku dengan judul 'Manajemen Transportasi'.
 
+Buku ini punya 10 bab:
+
+Bab 1 : Konsep Dasar Manajemen Transportasi
+Bab 2 : Sistem Transportasi dan Moda Transportasi
+Bab 3 : Perencanaan Transportasi → _bagian saya_
+Bab 4 : Manajemen Operasional Transportasi
+Bab 5: Manajemen Infrastruktur Transportasi
+Bab 6: Manajemen Lalu Lintas dan Angkutan
+Bab 7: Ekonomi dan Pembiayaan Transportasi
+Bab 8: Teknologi dalam Manajemen Transportasi
+Bab 9: Kebijakan dan Regulasi Transportasi
+Bab 10: Transportasi Berkelanjutan
+
 ## Direktori Kerja
 
 ```text
@@ -16,9 +29,13 @@ book-chapter-transport
 │       └── unify-paragraph
 ├── .obsidian
 ├── brainstorm
-│   └── references
-│       ├── assets
-│       └── books
+│   ├── assets
+│   ├── books
+│   ├── legals
+│   ├── news
+│   ├── output
+│   ├── pptx
+│   └── research
 ├── how-to-quarto
 │   ├── 01-authoring
 │   ├── 02-computations

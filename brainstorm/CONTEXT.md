@@ -20,19 +20,38 @@ book-chapter-transport
     │   ├── @manheim1979fundamentals.md
     │   ├── cascetta        → catatan per-bab dari Cascetta (2009)
     │   ├── hensher-button  → catatan per-bab dari Hensher & Button (2007)
-    │   ├── pdf             → file PDF buku-buku referensi
     │   └── tamin           → catatan per-bab dari Tamin (2019)
     ├── legals             → dokumen aturan dan legal
     │   ├── permen-atrbpn-no-6-tahun-2026.md
     │   └── permen-atrbpn-no-6-tahun-2026.pdf
     ├── output             → hasil brainstorming
-    └── pptx               → salindia (slide) presentasi referensi
-        ├── 1_Sistem Transportasi Total.md
-        └── 1_Sistem Transportasi Total.pptx
+    ├── pptx               → salindia (slide) presentasi referensi
+    │   ├── 1_Sistem Transportasi Total.md
+    │   └── 1_Sistem Transportasi Total.pptx
+    └── research           → dokumen hasil riset / studi literatur pendukung
+        ├── Periodization and Evolution of Transportation Modeling in Indonesia.md
+        └── Spatial Plan Evaluation Literature Review.md
 ```
 
 ## Hasil Brainstorming
+
+Tuliskan hasil brainstorming dalam direktori [output](./output/) dengan format nama berikut. Masukkan keterangan waktu (hari, tanggal, dan jam keluaran dokumen). Perbarui juga bagian di bawah.
+
+Format nama file: `YYYYMMDDxx diskusi isi bab.md`
+
+- `YYYYMMDD` : tahun-bulan-tanggal file
+- `x` pertama: penomoran versi dengan huruf (`a`, `b`, dst...) untuk membedakan dua file yang diproduksi >1 kali karena adanya perbedaan versi
+- `x` kedua: huruf `r` atau tidak ada, yang menunjukkan kalau dokumen itu adalah respon (_r_) untuk file versi `YYYYMMDDx`
+- `diskusi isi bab` : kata literal khusus dokumen yang Anda hasilkan. Kalau saya yang membuat, saya akan buat `respon diskusi`
+
+--- Bagian yang diperbarui ---
+
+Berikut adalah hasil diskusi sejauh ini.
+
 - 2026-06-17: [[20260617 diskusi isi bab]]
+
+--- Akhir bagian yang diperbarui ---
+
 ## Gambaran Umum isi Buku
 Perumusan isi buku ada di `@overview-bab-buku.md`. Ingat bahwa ini adalah sesi _brainstorming_, sehingga isi `@overview-bab-buku.md` akan sangat sering berubah.
 
@@ -46,6 +65,7 @@ Saya menggunakan sumber-sumber yang langsung berada di dalam direktori ini (`@br
 - aset-aset berupa gambar, tabel, dataset, dan sejenisnya → `@assets`
 - dokumen aturan dan legal → `@legals`
 - salindia (_slide_) presentasi → `@pptx`
+- hasil riset / studi literatur pendukung → `@research`
 - ...(akan ditambahkan kemudian)
 
 ### Buku-buku
@@ -137,3 +157,27 @@ publisher={Emerald Group Publishing Limited}
   publisher={Pearson Prentice Hall}
 }
 ```
+
+### Peraturan Hukum
+
+Ada beberapa peraturan hukum yang saya pikir berkaitan dengan perencanaan tata ruang.
+
+1. **Undang-Undang**
+  1. [No. 26 Tahun 2007](./legals/UU%20Nomor%2026%20Tahun%202007.md) tentang Penataan Ruang
+  2.  [No. 2 Tahun 2022](./legals/UU%20Nomor%202%20Tahun%202022.md) tentang Jalan
+  3.   [No. 6 Tahun 2023](./legals/UU%20Nomor%206%20Tahun%202023.md) tentang Cipta Kerja
+  4.    [No. 22 Tahun 2009](./legals/UU%20Nomor%2022%20Tahun%202009.md) tentang Lalu Lintas dan Angkutan Jalan
+2. **Peraturan Pemerintah**
+  1. [No. 21 Tahun 2021](./legals/PP%20Nomor%2021%20Tahun%202021.md) tentang Penyelenggaraan Penataan Ruang
+3. **Peraturan Menteri** 
+  1. [ATR/BPN no. 6 Tahun 2026](./legals/permen-atrbpn-no-6-tahun-2026.md) tentang tata cara penyusunan,peninjauan kembali, revisi, dan penerbitan persetujuan substansi rencana tata ruang wilayah provinsi, kabupaten, kota, dan rencana detail tata ruang
+  2. [Perhubungan No. 49 Tahun 2005](./legals/2005kmkemenhub049.md) tentang Sistem Transportasi Nasional
+
+Perlu diingat bahwa UU No 6 Tahun 2023 mengubah 3 UU lainnya.
+
+### Hasil Riset / Studi Literatur
+
+Berikut adalah dokumen hasil riset dan kajian literatur tambahan yang dikembangkan dalam sesi brainstorming ini.
+
+- [`Periodization and Evolution of Transportation Modeling in Indonesia.md`](./research/Periodization%20and%20Evolution%20of%20Transportation%20Modeling%20in%20Indonesia.md) : kajian mengenai sejarah, evolusi komputasional, dan periodisasi pemodelan transportasi di Indonesia (dari model empat tahap tradisional hingga pemanfaatan kecerdasan buatan).
+- [`Spatial Plan Evaluation Literature Review.md`](./research/Spatial%20Plan%20Evaluation%20Literature%20Review.md) : kajian mengenai metode evaluasi dalam perencanaan transportasi.

@@ -1,5 +1,6 @@
-# Buku-buku
-brainstorm/books/pdf/
+# PDF
+brainstorm/**/*.pdf
+
 
 # History files
 .Rhistory

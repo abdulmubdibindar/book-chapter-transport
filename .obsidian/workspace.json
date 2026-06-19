@@ -6,35 +6,98 @@
       {
         "id": "4bec06751d374f24",
         "type": "tabs",
+        "dimension": 45.68345323741007,
         "children": [
           {
-            "id": "1d3d94f4f068fc5e",
+            "id": "f3c8c3353298fe9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "brainstorm/output/20260617 diskusi isi bab.md",
+                "file": "brainstorm/CONTEXT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260617 diskusi isi bab"
+              "title": "CONTEXT"
+            }
+          },
+          {
+            "id": "d5b73fe978a22596",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "brainstorm/books/ortuzar/@ortuzar2011modelling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "@ortuzar2011modelling"
+            }
+          },
+          {
+            "id": "48288529b7a3bb06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "brainstorm/books/ortuzar/@ortuzar2011modelling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "@ortuzar2011modelling"
+            }
+          },
+          {
+            "id": "84cd0186c0f4be17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "brainstorm/books/ortuzar/@ortuzar2011modelling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "@ortuzar2011modelling"
+            }
+          },
+          {
+            "id": "ea6890af58c47516",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GEMINI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GEMINI"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "54d113e5eeab9f1a",
         "type": "tabs",
+        "dimension": 54.31654676258993,
         "children": [
           {
             "id": "30eeea041870662d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "brainstorm/overview-bab-buku.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "overview-bab-buku"
             }
           }
         ]
@@ -165,20 +228,22 @@
             }
           },
           {
-            "id": "18ff35a040125738",
+            "id": "baa808ad55553022",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "GEMINI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of GEMINI"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -196,45 +261,80 @@
       "bases:Create new base": false
     }
   },
-  "active": "1d3d94f4f068fc5e",
+  "floating": {
+    "id": "2382f104d13e26b8",
+    "type": "floating",
+    "children": [
+      {
+        "id": "da037ec99495ba46",
+        "type": "window",
+        "children": [
+          {
+            "id": "604bef8f4bf3f7e9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1d3d94f4f068fc5e",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 364,
+        "y": 18,
+        "width": 600,
+        "height": 756,
+        "maximize": false,
+        "zoom": -1
+      }
+    ]
+  },
+  "active": "ea6890af58c47516",
   "lastOpenFiles": [
-    "README.md",
-    "brainstorm/output/20260617 diskusi isi bab.md",
+    "brainstorm/books/ortuzar/Bab 1 Introduction.md",
+    "brainstorm/books/ortuzar/@ortuzar2011modelling.md",
+    "brainstorm/books/ortuzar/Bab 3 Data and Space.md",
+    "brainstorm/books/ortuzar/Bab 2 Mathematical Prerequisites.md",
+    "brainstorm/books/rodrigue/Conclusion - Challenges for Transport Geography.md",
     "brainstorm/CONTEXT.md",
-    "brainstorm/books/@fricker2004fundamentals.md",
+    "brainstorm/books/rodrigue/Bab 9 Transport Planning and Policy.md",
+    "brainstorm/books/rodrigue/Bab 10 Methods in Transport Geography.md",
+    "brainstorm/books/ortuzar",
+    "brainstorm/output/20260618ar respon.md",
+    "brainstorm/books/rodrigue/Bab 8 Urban Transportation.md",
+    "brainstorm/books/rodrigue/Bab 7 Trades, Logistics, and Freight.md",
+    "brainstorm/books/rodrigue/Bab 6 Transportation Terminals.md",
+    "brainstorm/books/rodrigue/@rodrigue2020geography.md",
+    "brainstorm/books/rodrigue/Bab 1 Transportation and Geography.md",
+    "brainstorm/books/rodrigue/Bab 5 Transportation Mode.md",
+    "brainstorm/books/rodrigue/Bab 4 Transport, Energy, and Environment.md",
+    "brainstorm/books/rodrigue/Bab 3 Transportation, Economic, and Society.md",
+    "brainstorm/books/rodrigue/Bab 2 Transportation and Spatial Structure.md",
+    "brainstorm/rodrigue/@rodrigue2020geography.md",
+    "brainstorm/books/rodrigue",
+    "Bab 1 Transportasi dan Geografi.md",
+    "brainstorm/books/Bab 1 Transportasi dan Geografi.md",
+    "Untitled.md",
     "brainstorm/overview-bab-buku.md",
-    "@fricker2004fundamentals.md",
+    "brainstorm/output/20260618a ternyata maks 10 hlm.md",
+    "menulis/log/20260618-penyelesaian-masalah-render-quarto.md",
+    "menulis/CONTEXT.md",
+    "brainstorm/rodrigue/@rodrigue",
+    "brainstorm/rodrigue",
+    "brainstorm/research/Spatial Plan Evaluation Literature Review.md.crdownload",
+    "brainstorm/research/Periodization and Evolution of Transportation Modeling in Indonesia.md.crdownload",
+    "brainstorm/research",
+    "menulis/log",
     "brainstorm/books/pdf/(Rose-Hulman CE380) Robert K Whitford, Jon D Fricker - Fundamentals of Transportation Engineering_ A Multimodal Systems Approach (2nd Edition)-The Scholar Collection (2018).pdf",
-    "brainstorm/legals/permen-atrbpn-no-6-tahun-2026.md",
-    "brainstorm/pptx/1_Sistem Transportasi Total.md",
     "brainstorm/output/report_pdf.json",
-    "brainstorm/output/report_pptx.json",
-    "brainstorm/legal",
-    "brainstorm/legals/permen-atrbpn-no-6-tahun-2026.pdf",
-    "brainstorm/legals",
-    "brainstorm/New folder",
-    "brainstorm/books/tamin/@tamin2019perencanaan.md",
-    "brainstorm/books/tamin/00-preface.md",
-    "brainstorm/books/tamin/1 Pendahuluan.md",
-    "brainstorm/books/tamin/{file%.pdf}.md",
-    "brainstorm/books/tamin/fix_spaces.py",
-    "brainstorm/books/hensher-button/@hensher2007handbook.md",
     "brainstorm/assets/tamin-diagram.drawio.svg",
-    "brainstorm/books/tamin/2 Pendekatan perencanaan transportasi.md",
-    "brainstorm/books/cascetta/@cascetta2009transportation.md",
-    "brainstorm/books/cascetta/cascetta_chp_10.md",
-    "brainstorm/books/@tamin2019perencanaan.md",
-    "brainstorm/@tamin2019perencanaan.md",
-    "brainstorm/books/cascetta/cascetta_chp_3.md",
-    "brainstorm/books/cascetta/cascetta_rangkuman.md",
-    "brainstorm/books/cascetta/cascetta_chp_9.md",
-    "brainstorm/books/cascetta/cascetta_chp_8.md",
-    "brainstorm/books/cascetta/cascetta_chp_7.md",
-    "brainstorm/books/cascetta/cascetta_chp_6.md",
-    "brainstorm/books/cascetta/cascetta_chp_5.md",
-    "brainstorm/books/cascetta/cascetta_chp_4.md",
-    "brainstorm/books/pdf",
-    "brainstorm/books/cascetta",
     "brainstorm/assets/Pasted image 20260612230823.png",
     "brainstorm/assets/manheim-diagram.svg"
   ]

@@ -1,0 +1,42 @@
+format:
+  docx:
+    toc: false
+    number-sections: true
+    highlight-style: github
+    
+    # Catatan: Untuk output Word (.docx), pengaturan halaman (A4, margin) dan font face
+    # secara mutlak diatur oleh MS Word melalui berkas dokumen referensi (reference-doc).
+    # Anda dapat membuat template Word dengan margin (Atas/Bawah 3cm, Dalam 4cm, Luar 3cm)
+    # serta font Aptos/Aptos Display, lalu pasang di opsi di bawah ini:
+    # reference-doc: template-custom.docx
+    
+    # Opsi metadata font pendukung untuk beberapa versi penulis Word Pandoc:
+    mainfont: "Aptos"
+    sansfont: "Aptos Display"
+
+  # Pengaturan halaman dan font jika sewaktu-waktu dikompilasi ke format PDF (via Typst)
+  typst:
+    papersize: a4
+    margin:
+      top: 3cm
+      bottom: 3cm
+      left: 4cm
+      right: 3cm
+    mainfont: "Aptos"
+
+  # Pengaturan halaman dan font jika dikompilasi ke format PDF (via LaTeX)
+  pdf:
+    papersize: a4
+    geometry:
+      - top=30mm
+      - bottom=30mm
+      - left=40mm
+      - right=30mm
+    mainfont: "Aptos"
+    sansfont: "Aptos Display"
+
+  # Pengaturan font jika dikompilasi ke format HTML/Web
+  html:
+    theme: cosmo
+    mainfont: "Aptos"
+    sansfont: "Aptos Display"

@@ -1,0 +1,118 @@
+---
+title: "Perencanaan Transportasi"
+author: "Dosen Perencanaan Wilayah dan Kota, Institut Teknologi Sumatera (ITERA)"
+format:
+  docx:
+    toc: false
+    number-sections: true
+    highlight-style: github
+bibliography: references.bib
+---
+
+# Pendahuluan
+
+Transportasi merupakan urat nadi utama bagi pergerakan manusia dan barang dalam suatu wilayah. Namun, sistem pergerakan ini tidak dapat dibiarkan tumbuh secara organik tanpa kendali. Pertumbuhan tanpa arah sering kali menimbulkan masalah akut seperti kemacetan parah, pemborosan energi, dan polusi udara. Oleh karena itu, perencanaan transportasi hadir sebagai intervensi sadar untuk mengelola dan mengarahkan masa depan mobilitas wilayah. Melalui perencanaan yang matang, penyediaan infrastruktur jalan dan transportasi umum dapat diselaraskan dengan perkembangan guna lahan. Hal ini penting untuk menciptakan pergerakan yang aman, lancar, dan menghemat biaya perjalanan bagi masyarakat.
+
+# Sistem Transportasi Makro dan Perilaku Perjalanan
+
+Untuk merencanakan pergerakan secara efektif, kita harus memandang transportasi sebagai suatu sistem yang utuh dan saling terkait. Transportasi bukanlah sektor yang berdiri sendiri. 
+
+Menurut konsep dasar yang digagas oleh @manheim1979fundamentals, sistem pergerakan ditentukan oleh hubungan timbal balik yang dinamis antara tiga variabel utama. Variabel ini dikenal dengan diagram T-A-F, yang terdiri dari Sistem Transportasi (*Transport system* - T), Sistem Aktivitas (*Activity system* - A), dan Pola Aliran pergerakan (*Flow pattern* - F). Hubungan timbal balik ini tergambar pada bagaimana sistem aktivitas masyarakat, seperti kawasan industri, perumahan, dan stasiun kereta api, memicu terjadinya pergerakan. Pola aliran pergerakan ini pada gilirannya memanfaatkan sistem transportasi yang tersedia, seperti jaringan jalan raya dan rel kereta api. Interaksi ini bersifat timbal balik dan dinamis. Perubahan pada jaringan jalan baru (T) akan memengaruhi lokasi aktivitas baru (A), yang kemudian akan mengubah pola aliran kendaraan (F).
+
+Konsep interaksi ini dipertegas oleh @tamin2019perencanaan yang merumuskan Sistem Transportasi Makro. Sistem makro ini membagi interaksi tersebut ke dalam empat subsistem utama:
+1. **Subsistem Kegiatan:** Pola tata guna lahan dan aktivitas sosial-ekonomi yang memicu kebutuhan perjalanan.
+2. **Subsistem Jaringan:** Sarana dan prasarana fisik seperti jalan, rel, terminal, dan stasiun.
+3. **Subsistem Pergerakan:** Arus kendaraan, orang, dan barang yang mengalir di dalam jaringan.
+4. **Subsistem Kelembagaan:** Otoritas pengambil kebijakan, operator layanan, dan aturan hukum yang mengatur ketiganya.
+
+Dalam dunia perencanaan, pergerakan transportasi dikategorikan sebagai permintaan turunan (*derived demand*). Fenomena ini tak lain adalah hasil dari fakta bahwa orang melakukan perjalanan bukan demi pergerakan itu sendiri. Orang bergerak karena perlu melakukan aktivitas lain di tempat tujuan, seperti bekerja di kantor, bersekolah, atau berbelanja. 
+
+Karakteristik permintaan ini sangat memengaruhi paradigma pembangunan infrastruktur. Secara umum, terdapat dua paradigma pembangunan yang berkembang. Paradigma pertama adalah *ship follows the trade*, yaitu pembangunan transportasi yang bersifat reaktif untuk menunjang aktivitas ekonomi yang sudah berkembang pesat. Paradigma kedua adalah *trade follows the ship*, di mana infrastruktur transportasi dibangun sebagai pemicu awal untuk merangsang pertumbuhan aktivitas ekonomi baru di wilayah yang belum berkembang.
+
+# Siklus Perencanaan dan Kebutuhan Data Spasial
+
+Perencanaan transportasi adalah proses berkelanjutan yang memerlukan langkah sistematis. Proses ini tidak berupa langkah linier yang kaku, melainkan sebuah daur ulang yang interaktif. @anderson1995guidelines menjelaskan proses perencanaan rasional yang terdiri dari sembilan tahapan dinamis, mulai dari identifikasi masalah, perumusan tujuan, pengumpulan data, penyusunan rencana, hingga pengelolaan program implementasi dan pemantauan dampaknya di lapangan. 
+
+Dalam skala wilayah, analisis perencanaan dibagi menjadi tiga tingkatan kedalaman:
+*   **Skala Makro:** Berfokus pada perencanaan strategis jangka panjang untuk wilayah kota atau regional, seperti rencana induk sistem transit massal kota metropolitan.
+*   **Skala Meso:** Menganalisis pergerakan pada koridor jalan tertentu atau kawasan khusus seperti pusat bisnis.
+*   **Skala Mikro:** Menyoroti manajemen lalu lintas lokal yang mendetail, seperti optimalisasi waktu sinyal di persimpangan jalan atau desain geometri halte bus.
+
+Untuk menjalankan seluruh siklus perencanaan tersebut, ketersediaan data yang valid dan mutakhir sangat mutlak diperlukan. Data ini berfungsi sebagai basis empiris untuk memprediksi pergerakan masa depan. Metode pengumpulan data primer dan sekunder kini juga diperkaya dengan teknologi nirkabel seperti *Mobile Positioning Data* (MPD) untuk menangkap proporsi komuter metropolitan secara waktu nyata [@bps2024mpd]. Metode-metode pengumpulan data ini dirangkum dalam @tbl-metode-survei.
+
+| Jenis Survei | Metode Pengumpulan Data | Kegunaan Utama dalam Pemodelan |
+|:---|:---|:---|
+| **Pencacahan Lalu Lintas (*Traffic Count*)** | Penghitungan manual atau sensor otomatis volume kendaraan di jalan | Mengetahui volume lalu lintas aktual (*screening* V/C Ratio) |
+| **Survei Asal-Tujuan (*Origin-Destination*)** | Wawancara tepi jalan, pos kordon, pelacakan plat nomor, atau MPD | Menyusun matriks asal-tujuan perjalanan antar-TAZ [@bps2024mpd] |
+| **Survei Wawancara Rumah Tangga (*Household Interview*)** | Kuesioner langsung mengenai profil demografi dan perjalanan keluarga | Menganalisis bangkitan dan tarikan perjalanan berbasis individu |
+| **Inventarisasi Prasarana** | Pengukuran lebar jalan, kondisi permukaan, dan jenis sinyal | Mengestimasi kapasitas jaringan jalan (*supply* sistem) |
+| **Survei Sosio-Ekonomi (Sekunder)** | Pencatatan data BPS (jumlah penduduk, lapangan kerja, pendapatan) | Menjadi variabel penjelas dalam regresi bangkitan perjalanan |
+
+: Metode Pengumpulan Data dan Survei Perencanaan Transportasi {#tbl-metode-survei}
+
+# Dasar Pemodelan Transportasi dan Formulasi Empat Tahap
+
+Realitas sistem pergerakan wilayah sangatlah rumit karena melibatkan ribuan pilihan manusia yang acak (stokastik), interaksi kemacetan fisik di jalan, dan tundaan ruang-waktu. Untuk memahami dan merekayasa realitas yang kompleks ini, perencana memerlukan model. Model dapat didefinisikan sebagai penyederhanaan realitas untuk memprediksi dampak dari suatu kebijakan atau pembangunan fisik jalan sebelum dana investasi besar digelontorkan. 
+
+Dalam pemodelan transportasi, wilayah studi dibagi menjadi beberapa Zona Analisis Lalu Lintas (*Traffic Analysis Zone* - TAZ). Pergerakan antar-zona ini direpresentasikan mengalir melalui titik pusat aktivitas (*centroid*) yang terhubung ke jaringan jalan fisik melalui garis konektor virtual.
+
+Pendekatan kuantitatif standar yang paling luas digunakan dalam memproyeksikan arus lalu lintas adalah Model Empat Tahap (*Four-Step Model* - FSM). Prosedur ini membagi analisis pergerakan secara runtut ke dalam empat tahap utama. Setiap tahap diselesaikan menggunakan formula matematika tertentu seperti ditunjukkan pada @tbl-four-step-model.
+
+::: {#tbl-four-step-model .list-table aligns="l,l,l" tbl-colwidths="[25,40,35]"}
+Struktur Komponen Model Empat Tahap Klasik (FSM)
+
+- - Tahapan
+  - Mekanisme Komputasional & Teori
+  - Variabel Utama & Formulasi Esensial
+- - **Bangkitan & Tarikan (*Trip Generation*)**
+  - Mengukur jumlah perjalanan harian yang diproduksi oleh perumahan atau ditarik oleh tempat kerja di setiap TAZ.
+  - Variabel: Jumlah penduduk, pekerjaan.
+    
+    Formula: $P_i = a + b X_i$
+- - **Distribusi Perjalanan (*Trip Distribution*)**
+  - Menghubungkan produksi dan tarikan perjalanan ke dalam matriks asal-tujuan. Tahap ini bertumpu pada analogi hukum Gravitasi Newton.
+  - Variabel: Waktu/biaya perjalanan antar-zona.
+    
+    Formula: $T_{ij} = A_i P_i B_j D_j f(C_{ij})$
+- - **Pemilihan Moda (*Mode Choice*)**
+  - Menghitung probabilitas komuter memilih kendaraan pribadi atau transportasi umum berdasarkan maksimisasi utilitas acak.
+  - Variabel: Selisih biaya dan waktu tempuh.
+    
+    Formula: $P_m = \frac{e^{U_m}}{\sum e^{U_k}}$
+- - **Pembebanan Jaringan (*Traffic Assignment*)**
+  - Membebankan perjalanan ke rute jaringan jalan nyata berdasarkan asumsi waktu tempuh terpendek (Ekuilibrium Wardrop).
+  - Variabel: Rasio volume/kapasitas jalan.
+    
+    Formula: $t = t_0 [1 + \alpha (V/C)^\beta]$
+:::
+
+Waktu tempuh aktual di jalan sangat dipengaruhi oleh volume lalu lintas ($V$) yang menggunakan jalan tersebut dibanding kapasitas fisiknya ($C$). Hubungan ini diukur melalui rasio volume terhadap kapasitas (**V/C Ratio**) yang ditunjukkan pada formula pembebanan rute BPR di @tbl-four-step-model. Peningkatan volume kendaraan akan memperbesar V/C Ratio dan menurunkan kecepatan, yang kemudian menurunkan Tingkat Pelayanan Jalan (*Level of Service* - LOS).
+
+# Evolusi Pemodelan: Dari Klasik ke Era Kecerdasan Buatan (AI)
+
+Model empat tahap klasik terbukti sangat membantu dalam merancang proyek jalan tol berskala besar. Namun, FSM memiliki kelemahan mendasar. Asumsi sekuensial FSM dinilai terlalu kaku karena mengabaikan hubungan timbal balik langsung antar-tahap. Selain itu, FSM memperlakukan perjalanan secara terpisah, sehingga gagal merekam pola rantai aktivitas komuter yang kompleks dalam sehari.
+
+Keterbatasan ini mendorong lahirnya Model Berbasis Aktivitas (*Activity-Based Modeling* - ABM) pada sisi permintaan, dan Pembebanan Jaringan Dinamis (*Dynamic Traffic Assignment* - DTA) pada sisi suplai. Evolusi ini memuncak pada pengembangan pemodelan berbasis agen (*Agent-Based Modeling*) menggunakan kerangka kerja seperti *Multi-Agent Transport Simulation* (MATSim). Dalam model MATSim, masyarakat disimulasikan secara diskrit sebagai jutaan "agen" sintetik otonom. Setiap agen memiliki rencana aktivitas harian sendiri. Agen-agen ini bersaing memperebutkan ruang jalan dalam simulasi fisik, lalu belajar memperbarui strategi perutean mereka di hari berikutnya guna menghindari kemacetan. Di wilayah metropolitan Jakarta, model MATSim berskala besar telah dikembangkan untuk mensimulasikan jutaan agen komuter dan menguji dampak kebijakan tarif jalan secara multimodal [@matsim2026jakarta].
+
+Di Indonesia, penerapan teknologi pemodelan otonom berbasis data raya (*big data*) dan Kecerdasan Buatan (AI) telah berkembang pesat. Fenomena ini tercermin dari orkestrasi jutaan rute harian oleh perusahaan tumpangan daring swasta seperti Gojek dan Grab. Perusahaan ini memanfaatkan model penyesuaian harga dinamis (*dynamic pricing*) berbasis algoritma kecerdasan buatan untuk menjaga keseimbangan pasokan pengemudi dan permintaan pengguna secara waktu nyata. 
+
+Pada sektor pelayanan publik, sistem manajemen lampu lalu lintas pintar (*Intelligent Traffic Control System* - ITCS) berbasis AI dan IoT telah dipasang di puluhan persimpangan vital oleh Jakarta Smart City [@its2025jakarta]. ITCS menggunakan teknologi kamera pemantau berbasis *Computer Vision* untuk menghitung kepadatan kendaraan secara otomatis. Sistem kemudian memanipulasi durasi sinyal lampu hijau secara adaptif. Langkah ini terbukti berhasil meningkatkan kelancaran lalu lintas hingga 15% tanpa melakukan pelebaran fisik jalan.
+
+# Integrasi Transportasi dan Penataan Ruang
+
+Pemodelan transportasi pada dasarnya tidak boleh dipisahkan dari perencanaan tata guna lahan. Keduanya saling berinteraksi secara melingkar dalam kerangka hubungan guna lahan dan transportasi (*Land-Use Transport Interaction* - LUTI). Pola pemanfaatan ruang (seperti perkantoran baru) akan menimbulkan bangkitan perjalanan yang memadati jaringan jalan. Sebaliknya, pembukaan jalan baru akan meningkatkan aksesibilitas wilayah, yang kemudian menaikkan harga tanah dan merangsang pertumbuhan perumahan baru di sekitarnya.
+
+Dalam praktik di Indonesia, integrasi ini diatur secara hukum melalui [[permen-atrbpn-no-6-tahun-2026]]. Regulasi ini mewajibkan penyelarasan antara rencana tata ruang (RTRW/RDTR) dengan pemodelan transportasi makro. Hubungan ini diwujudkan dalam dua dimensi penataan ruang:
+1.  **Penyusunan Rencana Struktur Ruang:** Menentukan hierarki jaringan jalan (jalan arteri, kolektor, lokal) berdasarkan hasil pemodelan V/C Ratio dan proyeksi LOS jalan di masa depan.
+2.  **Penyusunan Rencana Pola Ruang:** Mengendalikan kepadatan aktivitas guna lahan agar tidak melampaui kapasitas jalan yang tersedia, serta mendorong konsep pembangunan berorientasi transit (*Transit-Oriented Development* - TOD) di sekitar stasiun kereta api dan halte bus utama.
+
+Tantangan terbesar dalam mewujudkan integrasi ini tak lain adalah fragmentasi kelembagaan. Sering kali terjadi kurangnya koordinasi antara lembaga pengelola jaringan jalan fisik (seperti Dirjen Bina Marga di bawah Kementerian Pekerjaan Umum) dengan lembaga pengelola sistem lalu lintas dan angkutan pergerakan (seperti Kementerian Perhubungan). Sinkronisasi kebijakan antar-instansi ini menjadi prasyarat mutlak untuk menghasilkan ruang wilayah yang teratur dan efisien.
+
+# Penutup
+
+Perencanaan transportasi merupakan instrumen strategis yang menjembatani kebutuhan mobilitas masyarakat dengan penataan ruang wilayah yang teratur. Memahami transportasi sebagai sistem makro yang dinamis (T-A-F) memandu perencana dalam mengumpulkan data survei spasial yang akurat. Dari data tersebut, pemodelan empat tahap klasik hingga era simulasi multi-agen berbasis kecerdasan buatan dapat dijalankan dengan baik. Pada akhirnya, integrasi yang erat antara pemodelan pergerakan dengan pengendalian guna lahan di bawah naungan regulasi tata ruang adalah kunci utama untuk mewujudkan mobilitas perkotaan yang berkelanjutan.
+
+# Daftar Pustaka
+
+::: {#refs}
+:::

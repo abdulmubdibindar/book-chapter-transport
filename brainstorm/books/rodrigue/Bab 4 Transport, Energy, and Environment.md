@@ -1,0 +1,88 @@
+## Transportation and Energy
+
+Transportasi dan energi memiliki hubungan yang sangat erat, di mana transportasi merupakan salah satu konsumen energi terbesar di dunia. Transportasi menyumbang sekitar 25% dari total permintaan energi dunia dan mengonsumsi sekitar 61,5% dari semua minyak bumi yang digunakan setiap tahunnya. Secara fundamental, hubungan antara transportasi dan energi adalah aplikasi fisika di mana energi dikonsumsi untuk memberikan momentum pada suatu massa, baik itu penumpang, kendaraan, maupun kargo.
+
+**Konsumsi dan Jenis Bahan Bakar** Tingkat konsumsi energi sangat dipengaruhi oleh kualitas dan kandungan kimia bahan bakar. Bahan bakar dengan kandungan energi tertinggi adalah hidrogen, sementara bahan bakar cair seperti bensin memiliki energi dua kali lipat lebih besar dari batu bara tingkat rendah dan tiga kali lipat dari kayu. Saat ini, bahan bakar turunan minyak sangat mendominasi dan menyumbang 94% dari total energi yang digunakan oleh moda transportasi global. Bensin adalah bahan bakar yang paling banyak digunakan (42,5%) yang mayoritas ditujukan untuk kendaraan penumpang ringan, diikuti oleh diesel (34,5%) untuk kendaraan berat pengangkut barang, dan minyak berat/minyak tanah (21,8%) untuk transportasi maritim dan udara.
+
+**Variasi Konsumsi Energi Antar Moda Transportasi** Setiap moda transportasi memiliki efisiensi dan profil konsumsi energi yang sangat berbeda:
+
+- **Transportasi Darat:** Mengonsumsi sebagian besar energi transportasi. Di negara-negara maju, jalan raya saja dapat menyumbang rata-rata 85% dari total energi yang digunakan oleh sektor transportasi.
+- **Transportasi Maritim:** Moda ini merupakan yang paling efisien secara energi berkat skala ekonominya yang masif. Meskipun menangani 90% dari volume perdagangan lintas batas dunia, transportasi air hanya menggunakan 7% dari seluruh energi yang dikonsumsi oleh aktivitas transportasi.
+- **Transportasi Udara:** Penerbangan menyumbang 8% dari energi yang dikonsumsi oleh transportasi. Tingkat konsumsi energi yang tinggi pada moda ini terkait erat dengan operasional pada kecepatan tinggi.
+
+Secara keseluruhan, mobilitas penumpang memakan 50 hingga 60% dari energi transportasi, yang didominasi oleh mobil pribadi. Mobil pribadi memiliki kinerja energi yang buruk, di mana hanya 12 hingga 30% dari bahan bakar yang benar-benar menghasilkan momentum kendaraan. Di sisi lain, transportasi barang menyumbang 40 hingga 50% dari konsumsi energi transportasi.
+
+**Konteks Lingkungan dan Keberlanjutan (Sustainability)** Dalam konteks yang lebih luas pada Bab Transportasi, Energi, dan Lingkungan, konsumsi energi fosil yang masif ini membawa dampak dan eksternalitas lingkungan yang sangat serius. Sektor transportasi bertanggung jawab atas penyumbangan sekitar 22% emisi karbon dioksida ($CO_{2}$) global, serta menghasilkan gas polutan berbahaya lain seperti karbon monoksida dan nitrogen oksida yang menyebabkan memburuknya kualitas udara dan memicu perubahan iklim.
+
+Sebagai tanggapan atas krisis lingkungan dan keterbatasan bahan bakar fosil, industri transportasi kini menghadapi tekanan untuk melakukan dekarbonisasi demi mencapai transportasi yang berkelanjutan (sustainable transportation). Hal ini mendorong transisi menuju penggunaan bahan bakar alternatif, seperti:
+
+- **Biofuel dan Gas Alam:** Alternatif bahan bakar rendah emisi yang mulai diadaptasi untuk operasional kendaraan berat.
+- **Hidrogen:** Menggunakan sel bahan bakar yang sangat efisien dengan tingkat emisi polutan mendekati nol.
+- **Kendaraan Listrik dan Hibrida:** Kendaraan listrik sangat ideal untuk transportasi perkotaan. Namun, transisi ini masih dihadapkan pada tantangan kepadatan energi baterai; sebagai perbandingan, baterai lithium saat ini hanya mampu menyimpan energi sekitar 0,5 MJ/kg, jauh lebih rendah dibandingkan bensin. Kendaraan hibrida saat ini dipandang sebagai alternatif transisi yang paling berkelanjutan dalam jangka menengah.
+
+Pada akhirnya, masa depan mobilitas akan sangat bergantung pada bagaimana sektor transportasi dapat terus memenuhi kebutuhan ekonomi dan sosial sambil beralih ke sumber energi yang meminimalkan jejak kerusakan pada lingkungan.
+## Transportation and Environment
+
+Hubungan antara transportasi dan lingkungan memiliki sifat yang paradoks. Di satu sisi, aktivitas transportasi memberikan manfaat sosial-ekonomi yang besar dengan mendukung mobilitas penumpang dan barang yang semakin meningkat, namun di sisi lain transportasi menghasilkan dampak lingkungan yang signifikan. Dimensi lingkungan dari transportasi secara berurutan mencakup penyebab (seperti tingkat ekonomi dan tata guna lahan), aktivitas (penggunaan infrastruktur transportasi), keluaran (seperti emisi gas buang), dan hasil akhir (dampak terhadap kesehatan, lingkungan, dan kesejahteraan).
+
+**Kategori Dampak Lingkungan** Berdasarkan skala dan efeknya, dampak transportasi terhadap lingkungan terbagi menjadi tiga kategori utama:
+
+- **Dampak langsung:** Akibat langsung dari aktivitas transportasi di mana hubungan sebab-akibatnya jelas, seperti polusi suara dan emisi karbon monoksida.
+- **Dampak tidak langsung:** Efek sekunder yang seringkali memiliki konsekuensi lebih besar namun lebih sulit diukur, seperti paparan partikulat dari pembakaran mesin yang secara tidak langsung terkait dengan masalah pernapasan dan kardiovaskular.
+- **Dampak kumulatif:** Konsekuensi gabungan dari berbagai faktor yang memicu masalah berskala global seperti perubahan iklim, di mana sektor transportasi menyumbang sekitar 22% dari total emisi karbon dioksida ($CO_{2}$) global.
+
+**Dimensi Lingkungan yang Spesifik** Dalam konteks yang lebih spesifik, sumber-sumber ini merinci beberapa aspek fisik lingkungan yang paling dirugikan oleh mobilitas:
+
+- **Perubahan Iklim:** Aktivitas industri transportasi melepaskan jutaan ton gas rumah kaca ke atmosfer setiap tahunnya, menyumbang antara 25 hingga 30% dari seluruh emisi gas rumah kaca. Beberapa gas seperti nitrogen oksida juga berperan dalam menipiskan lapisan ozon stratosfer.
+- **Kualitas Udara:** Kendaraan jalan raya, mesin laut, lokomotif, dan pesawat terbang adalah sumber emisi polutan beracun (seperti karbon monoksida, nitrogen oksida, timbal, dan materi partikulat) yang merusak kesehatan manusia serta memicu hujan asam dan kabut asap (smog).
+- **Kebisingan:** Suara bising dari pergerakan kendaraan maupun operasi pelabuhan dan bandara dapat menyebabkan gangguan psikologis, gangguan tidur, hingga memicu penyakit kardiovaskular. Hal ini pada akhirnya sering kali menurunkan nilai jual lahan di sekitarnya karena lokasi tersebut menjadi kurang diminati.
+- **Kualitas Air dan Tanah:** Transportasi laut sangat berdampak pada kualitas air melalui pengerukan saluran, pembuangan limbah, tumpahan minyak, serta pembuangan air balas (_ballast waters_) yang dapat membawa spesies akuatik invasif yang merusak ekosistem laut lokal. Selain itu, infrastruktur transportasi darat dapat memicu erosi dan kontaminasi tanah akibat tumpahan bahan bakar atau bahan kimia di tepi jalan maupun rel.
+- **Keanekaragaman Hayati dan Penggunaan Lahan (_Land Take_):** Kebutuhan akan material konstruksi dan jalur transportasi darat menyebabkan deforestasi dan fragmentasi habitat satwa liar. Fasilitas transportasi juga membutuhkan lahan perkotaan yang sangat luas yang dapat memecah kohesi sosial dan ekonomi masyarakat, serta merusak estetika lanskap kota.
+
+**Eksternalitas Lingkungan** Masalah mendasar dari seluruh dampak ini adalah konsep eksternalitas. Biaya total yang ditimbulkan oleh aktivitas transportasi, terutama kerusakan lingkungan, umumnya tidak ditanggung sepenuhnya oleh pengguna (misalnya pengemudi mobil), melainkan dibebankan kepada masyarakat luas. Kurangnya pertimbangan terhadap biaya nyata dari transportasi ini adalah penyebab utama dari berbagai masalah polusi saat ini.
+
+**Konteks Lebih Luas: Menuju Transportasi Berkelanjutan** Merespons dampak lingkungan yang memburuk, terutama sejak tahun 1960-an dan 1970-an, regulasi lingkungan yang komprehensif mulai diterapkan, seperti _National Environmental Policy Act_ (NEPA) dan _Clean Air Act_ di Amerika Serikat yang mewajibkan penilaian dampak lingkungan dan menetapkan standar emisi.
+
+Dalam konteks Bab 4, perdebatan mengenai lingkungan ini mengerucut pada pentingnya transportasi berkelanjutan (_sustainable transportation_). Industri transportasi kini dituntut untuk menyeimbangkan efisiensi ekonomi, keadilan sosial, dan tanggung jawab lingkungan. Tujuannya adalah menciptakan sistem yang mendukung kebutuhan mobilitas tanpa merusak lingkungan atau mengorbankan kemampuan generasi mendatang untuk memenuhi kebutuhan mobilitas mereka.
+## Sustainability
+
+Dalam konteks yang lebih luas mengenai energi dan lingkungan, transportasi berkelanjutan (_sustainable transportation_) didefinisikan sebagai kapasitas untuk mendukung kebutuhan mobilitas suatu masyarakat dengan cara yang paling tidak merusak lingkungan dan tidak mengorbankan kemampuan generasi mendatang untuk memenuhi kebutuhan mobilitas mereka. Pertumbuhan demografi dan konsumsi sumber daya telah memicu kekhawatiran tentang batas kemampuan lingkungan, sehingga keberlanjutan menjadi prioritas untuk masa depan pembangunan sosial dan ekonomi.
+
+Konsep keberlanjutan transportasi dibangun di atas tiga pilar utama:
+
+- **Tanggung Jawab Lingkungan (_Environment_):** Berfokus pada upaya pengurangan dampak lingkungan dari transportasi, seperti emisi gas berbahaya, kebisingan, dan perubahan iklim. Transportasi menyumbang sekitar 15% dari total gas rumah kaca dan 22% emisi karbon dioksida global, sehingga pengurangan jejak lingkungan dari infrastruktur dan pengelolaan limbah (seperti kendaraan dan suku cadang) menjadi sangat penting untuk diterapkan.
+- **Efisiensi Ekonomi (_Economy_):** Transportasi harus mendukung pertumbuhan ekonomi, perluasan lapangan kerja, serta penggunaan material dan energi yang jauh lebih efisien. Hal ini mencakup strategi penetapan harga yang wajar (_fair pricing_), di mana pengguna menanggung biaya penuh (baik langsung maupun tidak langsung) dari penggunaan sistem transportasi, serta penciptaan persaingan yang terbuka untuk mencegah distorsi harga dan inefisiensi alokasi modal.
+- **Keadilan Sosial (_Society_):** Sistem transportasi harus aman, tidak membahayakan kesehatan manusia, dan meminimalkan gangguan pada komunitas di sekitarnya. Transportasi juga harus menjamin aksesibilitas dan keadilan distribusi sumber daya untuk sebanyak mungkin orang.
+
+Mencapai keberlanjutan dalam transportasi menghadapi berbagai tantangan struktural. Salah satu paradoks terbesar adalah ketergantungan pada mobil (_automobile dependency_) yang sering kali dianggap sebagai pemicu lingkungan perkotaan yang tidak berkelanjutan. Di sisi lain, penggunaan mobil sangat diminati secara global karena fleksibilitas dan kenyamanannya ketika pendapatan masyarakat mencapai titik tertentu. Tantangan lainnya adalah lambatnya laju adaptasi infrastruktur; sebagian besar infrastruktur transportasi dan lingkungan binaan yang ada saat ini akan tetap bertahan hingga 50 tahun ke depan, sehingga perubahan radikal tidak dapat dilakukan dengan cepat untuk menyelesaikan seluruh eksternalitas negatif. Terdapat pula perdebatan mengenai siapa yang harus memimpin transisi keberlanjutan ini: pemerintah melalui jalur regulasi atau sektor swasta yang dinilai lebih responsif, efisien, dan mampu berinovasi.
+
+Untuk merespons berbagai tantangan ini, industri transportasi mengimplementasikan pendekatan mitigasi (meningkatkan efisiensi sistem yang ada dalam jangka pendek-menengah) dan adaptasi (perubahan tingkat penggunaan moda dalam jangka panjang). Strategi ini diwujudkan melalui dua pendekatan kebijakan utama:
+
+**1. Manajemen Permintaan Transportasi (_Demand Management_)** Kebijakan ini bertujuan mengurangi atau mendistribusikan ulang permintaan mobilitas dalam ruang dan waktu. Pendekatan ini mencakup:
+
+- **Penetapan biaya penuh (_full-cost pricing_):** Menghapus subsidi agar pengguna membayar biaya nyata transportasi, termasuk penerapan pajak polusi dan jalan berbayar (_tolls_) untuk memberikan insentif pada mobilitas yang lebih berkelanjutan.
+- **Kontrol parkir:** Menaikkan harga parkir atau mengurangi ruang parkir untuk mencegah penggunaan kendaraan pribadi di area padat dan mendorong penggunaan transportasi umum.
+- **Penghindaran perjalanan (_trip avoidance_):** Penggunaan teknologi informasi seperti _e-commerce_ atau bekerja dari jarak jauh untuk meminimalkan kebutuhan mobilitas fisik, meskipun hal ini dapat memicu peningkatan pergerakan parsel.
+- **Larangan lalu lintas:** Mengontrol batas jumlah kendaraan atau menutup jalanan pusat kota agar lebih ramah bagi aktivitas pejalan kaki.
+
+**2. Peningkatan Pasokan Transportasi (_Improving Supply_)** Selain mengatur permintaan, pasokan transportasi juga perlu ditingkatkan secara ramah lingkungan. Langkah-langkahnya meliputi:
+
+- **Efisiensi energi dan bahan bakar alternatif:** Mengurangi intensitas material kendaraan (menggunakan komposit yang lebih ringan) serta mempromosikan bahan bakar rendah karbon seperti gas alam, biofuel, listrik, atau hidrogen.
+- **Densifikasi dan aglomerasi:** Memusatkan aktivitas ekonomi untuk mengurangi jarak tempuh yang dibutuhkan dan memaksimalkan efisiensi moda transportasi.
+- **Transportasi sesuai konteks:** Mengoptimalkan transportasi publik yang tepat guna sambil tetap menjaga fleksibilitas, mengingat kendaraan pribadi dan publik masing-masing memiliki peran komplementer.
+- **Moda non-motor:** Mempromosikan penggunaan sepeda dan integrasi tata kota yang ramah bagi pejalan kaki sebagai penghubung dalam sistem transportasi publik yang terintegrasi.
+
+Pada tingkat operasional industri, paradigma baru seperti ekonomi sirkular (_circular economy_) juga mulai diintegrasikan ke dalam manajemen rantai pasokan dan logistik untuk mendongkrak keberlanjutan. Sistem umpan balik ini berusaha meminimalkan input sumber daya dari biosfer dan menekan kebocoran limbah ke lingkungan melalui praktik pengurangan, daur ulang, perbaikan, dan penggunaan kembali barang, yang pada akhirnya memberikan keuntungan besar pada efisiensi energi dan sumber daya.
+## Case Study: Climate Change
+
+Studi kasus mengenai "Perubahan Iklim dan Infrastruktur Transportasi" (Climate change and transport infrastructure) secara khusus menyoroti bagaimana sistem transportasi diperkirakan akan menghadapi dampak yang nyata dari perubahan iklim, terutama akibat risiko dari kenaikan permukaan laut, peningkatan intensitas curah hujan, dan gelombang panas. Dalam konteks Bab 4 yang lebih luas mengenai Transportasi, Energi, dan Lingkungan, kajian ini mengerucut pada tiga tema utama: dampak yang diharapkan dari perubahan iklim, perbandingan antara adaptasi dan mitigasi, serta upaya menuju ketahanan infrastruktur (_resilience_).
+
+**Hubungan Timbal Balik Transportasi dan Perubahan Iklim** Sektor transportasi memiliki hubungan yang paradoks dan saling mempengaruhi dengan perubahan iklim. Di satu sisi, transportasi adalah penyumbang utama emisi karbon; industri ini melepaskan jutaan ton gas rumah kaca setiap tahunnya, yang mencakup antara 25 hingga 30% dari total emisi gas rumah kaca global. Di sisi lain, transportasi juga sangat rentan dan secara langsung terkena dampak negatif dari perubahan iklim. Kejadian cuaca ekstrem memiliki efek yang sangat mengganggu sistem transportasi (terutama transportasi udara), dan berisiko memperpendek siklus hidup infrastruktur atau meningkatkan biaya perawatannya secara signifikan.
+
+**Ancaman Kenaikan Permukaan Laut pada Infrastruktur** Kenaikan permukaan laut akibat perubahan iklim merupakan tantangan yang sangat kritis bagi sistem transportasi pesisir. Skenario kenaikan permukaan laut menempatkan infrastruktur transportasi yang vital, seperti pelabuhan dan bandara, pada risiko kerusakan besar dan terhentinya operasi. Walaupun sebuah terminal pelabuhan atau bandara tidak rusak secara langsung oleh air laut, jalan akses menuju fasilitas tersebut sangat mungkin terputus atau terendam, yang pada akhirnya akan menghancurkan kelangsungan komersial dari terminal tersebut. Selain itu, kenaikan permukaan laut akan memperburuk dan memperkuat dampak dari kejadian cuaca ekstrem lainnya, terutama terjangan gelombang badai (_storm surges_).
+
+**Mitigasi, Adaptasi, dan Ketahanan (_Resilience_)** Untuk menghadapi tantangan perubahan iklim dalam sistem transportasi, strategi masa depan ditekankan pada keseimbangan antara mitigasi, adaptasi, dan pembentukan ketahanan:
+
+- **Mitigasi:** Merupakan strategi jangka pendek hingga menengah yang berkaitan dengan peningkatan produktivitas dan efisiensi moda transportasi, terminal, serta pendekatan manajerial yang ada saat ini sehingga eksternalitas lingkungan dapat ditekan.
+- **Adaptasi:** Merupakan perubahan operasional jangka panjang yang mengubah tingkat penggunaan dan pangsa pasar dari moda-moda transportasi untuk menyesuaikan diri dengan tren masa depan, seperti peraturan lingkungan yang lebih ketat atau kenaikan harga energi.
+- **Ketahanan (_Resilience_):** Mengingat bahwa bencana akibat iklim sulit dihindari, fokus diarahkan pada ketahanan, yaitu kapasitas sistem transportasi untuk memulihkan diri dan melanjutkan operasi pada tingkat yang sama seperti sebelum terjadinya gangguan iklim atau bencana. Semakin sedikit gangguan pada kapasitas lalu lintas dan semakin cepat sistem kembali normal, maka semakin tinggi tingkat ketahanannya, yang mana sangat bergantung pada struktur dan redundansi dari jaringan transportasi itu sendiri.

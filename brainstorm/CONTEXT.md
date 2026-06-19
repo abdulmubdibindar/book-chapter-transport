@@ -49,9 +49,10 @@ Format nama file: `YYYYMMDDxx diskusi isi bab.md`
 Berikut adalah hasil diskusi sejauh ini.
 
 - 2026-06-17:
-  - [[20260617a diskusi isi bab]]
-  - [[20260617ar respon diskusi]]
-
+  - [[20260617a brainstorm awal]]
+  - [[20260617ar respon brainstorm]]
+- 2026-06-18:
+  - [[20260618a ternyata maks 10 hlm]]
 
 --- Akhir bagian yang diperbarui ---
 
@@ -163,6 +164,35 @@ publisher={Emerald Group Publishing Limited}
 }
 ```
 
+#### [[@rodrigue2020geography]]
+
+```bibtex
+@book{rodrigue2020geography,
+  title={The Geography of Transport Systems},
+  author={Rodrigue, Jean-Paul and Comtois, Claude and Slack, Brian},
+  edition={5th},
+  year={2020},
+  publisher={Routledge},
+  address={London},
+  isbn={978-0-367-36463-2},
+  url={https://www.routledge.com/The-Geography-of-Transport-Systems/Rodrigue/p/book/9780367364632}
+}
+```
+
+#### [[@ortuzar2011modelling]]
+
+```bibtex
+@book{ortuzar2011modelling,
+  title     = {Modelling Transport},
+  author    = {Ort{\'u}zar, Juan de Dios and Willumsen, Luis G.},
+  year      = {2011},
+  edition   = {4th},
+  publisher = {John Wiley \& Sons},
+  address   = {Chichester, West Sussex, United Kingdom},
+  isbn      = {978-0-470-76039-0}
+}
+
+```
 ### Peraturan Hukum
 
 Ada beberapa peraturan hukum yang saya pikir berkaitan dengan perencanaan tata ruang.

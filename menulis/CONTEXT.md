@@ -85,4 +85,4 @@ _Figure_ seperti tabel, gambar, dan diagram digunakan untuk menunjang penjelasan
 
 ## Revisi dari Tulisan Akhir
 
-Jika ada revisi terhadap tulisan akhir, yakni tulisan terakhir yang dihasilkan dalam direktori ini, baca lagi [CONTEXT.md](../brainstorm/CONTEXT.md) untuk mencari _file_ hasil diskusi/tanggapannya terakhir, pelajari, lalu buat lagi file baru setelahnya.
+Jika ada revisi terhadap tulisan akhir, yakni tulisan terakhir yang dihasilkan dalam direktori ini ([@menulis](./menulis/)), baca lagi [`@brainstorm/outputs`](./brainstorm/output/) untuk mencari _file_ tanggapan diskusi terakhir, pelajari, lalu buat lagi file baru berdasarkan hasil itu.

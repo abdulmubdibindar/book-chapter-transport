@@ -11,8 +11,8 @@ format:
     # reference-doc: template-custom.docx
     
     # Opsi metadata font pendukung untuk beberapa versi penulis Word Pandoc:
-    mainfont: "Aptos"
-    sansfont: "Aptos Display"
+    mainfont: "Times New Roman"
+    sansfont: "Times New Roman"
 
   # Pengaturan halaman dan font jika sewaktu-waktu dikompilasi ke format PDF (via Typst)
   typst:

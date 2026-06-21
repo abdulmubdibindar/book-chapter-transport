@@ -4,90 +4,88 @@
     "type": "split",
     "children": [
       {
-        "id": "4bec06751d374f24",
+        "id": "a0effbeca8fe038c",
         "type": "tabs",
-        "dimension": 45.68345323741007,
         "children": [
           {
-            "id": "f3c8c3353298fe9f",
+            "id": "a11d952e4de7eb67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "brainstorm/CONTEXT.md",
+                "file": "menulis/20260618a bab 3.qmd",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260618a bab 3"
+            }
+          },
+          {
+            "id": "e079a684be70962c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "menulis/CONTEXT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "CONTEXT"
             }
-          },
-          {
-            "id": "d5b73fe978a22596",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "brainstorm/books/ortuzar/@ortuzar2011modelling.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "@ortuzar2011modelling"
-            }
-          },
-          {
-            "id": "48288529b7a3bb06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "brainstorm/books/ortuzar/@ortuzar2011modelling.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "@ortuzar2011modelling"
-            }
-          },
-          {
-            "id": "84cd0186c0f4be17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "brainstorm/books/ortuzar/@ortuzar2011modelling.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "@ortuzar2011modelling"
-            }
-          },
-          {
-            "id": "ea6890af58c47516",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GEMINI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GEMINI"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
-        "id": "54d113e5eeab9f1a",
+        "id": "10435b44d485ef39",
         "type": "tabs",
-        "dimension": 54.31654676258993,
         "children": [
           {
-            "id": "30eeea041870662d",
+            "id": "e2288e24ef6c49f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "brainstorm/books/@anderson1995guidelines.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "@anderson1995guidelines"
+            }
+          },
+          {
+            "id": "cdfce1796714de73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "brainstorm/books/@manheim1979fundamentals.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "@manheim1979fundamentals"
+            }
+          },
+          {
+            "id": "0ca727846d741246",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "brainstorm/output/20260621b telaah konsep dan regulasi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260621b telaah konsep dan regulasi"
+            }
+          },
+          {
+            "id": "17e16c12c1b69a60",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -99,8 +97,23 @@
               "icon": "lucide-file",
               "title": "overview-bab-buku"
             }
+          },
+          {
+            "id": "a4a5ac33af1389bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "brainstorm/output/20260622a klasifikasi rencana prasarana sektoral.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20260622a klasifikasi rencana prasarana sektoral"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -258,7 +271,9 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "qmd-as-md-obsidian:Toggle Quarto preview": false,
+      "qmd-as-md-obsidian:Render Quarto to PDF": false
     }
   },
   "floating": {
@@ -287,8 +302,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 364,
-        "y": 18,
+        "x": 1086,
+        "y": 87,
         "width": 600,
         "height": 756,
         "maximize": false,
@@ -296,46 +311,53 @@
       }
     ]
   },
-  "active": "ea6890af58c47516",
+  "active": "17e16c12c1b69a60",
   "lastOpenFiles": [
-    "brainstorm/books/ortuzar/Bab 1 Introduction.md",
-    "brainstorm/books/ortuzar/@ortuzar2011modelling.md",
-    "brainstorm/books/ortuzar/Bab 3 Data and Space.md",
-    "brainstorm/books/ortuzar/Bab 2 Mathematical Prerequisites.md",
-    "brainstorm/books/rodrigue/Conclusion - Challenges for Transport Geography.md",
-    "brainstorm/CONTEXT.md",
-    "brainstorm/books/rodrigue/Bab 9 Transport Planning and Policy.md",
-    "brainstorm/books/rodrigue/Bab 10 Methods in Transport Geography.md",
-    "brainstorm/books/ortuzar",
-    "brainstorm/output/20260618ar respon.md",
-    "brainstorm/books/rodrigue/Bab 8 Urban Transportation.md",
-    "brainstorm/books/rodrigue/Bab 7 Trades, Logistics, and Freight.md",
-    "brainstorm/books/rodrigue/Bab 6 Transportation Terminals.md",
-    "brainstorm/books/rodrigue/@rodrigue2020geography.md",
-    "brainstorm/books/rodrigue/Bab 1 Transportation and Geography.md",
-    "brainstorm/books/rodrigue/Bab 5 Transportation Mode.md",
-    "brainstorm/books/rodrigue/Bab 4 Transport, Energy, and Environment.md",
-    "brainstorm/books/rodrigue/Bab 3 Transportation, Economic, and Society.md",
-    "brainstorm/books/rodrigue/Bab 2 Transportation and Spatial Structure.md",
-    "brainstorm/rodrigue/@rodrigue2020geography.md",
-    "brainstorm/books/rodrigue",
-    "Bab 1 Transportasi dan Geografi.md",
-    "brainstorm/books/Bab 1 Transportasi dan Geografi.md",
-    "Untitled.md",
+    "menulis/~WRL0004.tmp",
+    "menulis/~WRD0003.tmp",
+    "menulis/~WRD0002.tmp",
+    "brainstorm/output/20260621ar respon hasil kedua.md",
+    "menulis/assets/tamin-diagram.png",
+    "menulis/assets/manheim-diagram.png",
+    "menulis/~$260622a bab 3.docx",
+    "menulis/log/20260622a-revisi-iterasi-tiga-integrasi-sppn-dan-kohesi-kalimat.md",
+    "menulis/20260622a bab 3_files/mediabag",
+    "menulis/20260622a bab 3_files",
+    "menulis/20260622a bab 3.docx",
+    "menulis/20260622a bab 3.qmd",
     "brainstorm/overview-bab-buku.md",
-    "brainstorm/output/20260618a ternyata maks 10 hlm.md",
-    "menulis/log/20260618-penyelesaian-masalah-render-quarto.md",
+    "brainstorm/output/20260622a klasifikasi rencana prasarana sektoral.md",
+    "brainstorm/legals/UU Nomor 25 Tahun 2004.md",
+    "brainstorm/legals/UU Nomor 25 Tahun 2004.pdf",
+    "brainstorm/output/20260621b telaah konsep dan regulasi.md",
+    "brainstorm/research/Periodization and Evolution of Transportation Modeling in Indonesia.md",
+    "brainstorm/books/@manheim1979fundamentals.md",
+    "brainstorm/output/20260621a telaah konsep dan regulasi.md",
+    "brainstorm/output/part2.txt",
+    "brainstorm/legals/report.json",
     "menulis/CONTEXT.md",
-    "brainstorm/rodrigue/@rodrigue",
-    "brainstorm/rodrigue",
-    "brainstorm/research/Spatial Plan Evaluation Literature Review.md.crdownload",
-    "brainstorm/research/Periodization and Evolution of Transportation Modeling in Indonesia.md.crdownload",
-    "brainstorm/research",
-    "menulis/log",
-    "brainstorm/books/pdf/(Rose-Hulman CE380) Robert K Whitford, Jon D Fricker - Fundamentals of Transportation Engineering_ A Multimodal Systems Approach (2nd Edition)-The Scholar Collection (2018).pdf",
-    "brainstorm/output/report_pdf.json",
-    "brainstorm/assets/tamin-diagram.drawio.svg",
-    "brainstorm/assets/Pasted image 20260612230823.png",
-    "brainstorm/assets/manheim-diagram.svg"
+    "brainstorm/books/@anderson1995guidelines.md",
+    "brainstorm/assets/diagram-adaptasi-anderson.png",
+    "brainstorm/output/20260618ar respon maks 10 hlm.md",
+    "menulis/assets/manheim-diagram.drawio.svg",
+    "brainstorm/books/@fricker2004fundamentals.md",
+    "menulis/assets/diagram-adaptasi-anderson.png",
+    "menulis/assets/high-res-panah.png",
+    "menulis/assets/Screenshot 2026-06-21 055102.png",
+    "menulis/log/20260620a-revisi-berdasarkan-tanggapan.md",
+    "menulis/assets/tamin-diagram.drawio.svg",
+    "menulis/assets/Pasted image 20260612230823.png",
+    "brainstorm/CONTEXT.md",
+    "brainstorm/output/20260618a ternyata maks 10 hlm.md",
+    "brainstorm/referensi.md",
+    "brainstorm/books/ortuzar/Bab 16 Pricing and Revenue.md",
+    "brainstorm/books/ortuzar/Bab 15 Key Parameters, Planning Variables and Value Functions.md",
+    "brainstorm/books/ortuzar/Bab 14 Activity Based Models.md",
+    "brainstorm/books/ortuzar/Bab 13 Freight Demand Models.md",
+    "brainstorm/books/ortuzar/Bab 12 Simplified Transport Demand Models.md",
+    "brainstorm/books/ortuzar/Bab 11 Equilibrium and Dynamic Assignment.md",
+    "brainstorm/books/ortuzar/Bab 10 Assignment.md",
+    "brainstorm/books/ortuzar/Bab 9 Model Aggregation and Transferability.md",
+    "brainstorm/assets/tamin-diagram.drawio.svg"
   ]
 }

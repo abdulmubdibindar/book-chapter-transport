@@ -50,35 +50,51 @@ book-chapter-transport
 
 ## Keterangan Skill
 
-| Nama Skill | Gunakan untuk |
-|------------|---------------|
-| `buat-tabel` | Membuat berbagai jenis tabel di Quarto markdown dengan format yang tepat (pipe tables, list tables, colspan/rowspan, dan panel/subtables) beserta referensi silangnya. |
-| `directory-catalog` | Memetakan dan membuat ringkasan/katalog isi dokumen yang ada di dalam suatu direktori menjadi satu berkas ringkasan. |
-| `fix-footnotes` | Mendeteksi angka catatan kaki (footnote) polos pada dokumen Markdown dan mengubahnya menjadi format tag HTML `<sup>` secara otomatis dengan analisis batas jumlah rujukan. |
-| `fix-spaces` | Membersihkan spasi ekstra di antara huruf-huruf pada kata dalam dokumen Markdown (akibat kesalahan encoding/konversi dari PDF/Word). |
-| `office-to-markdown` | Mengonversi berkas Microsoft Office (`.docx`, `.xlsx`, `.pptx`) menjadi dokumen berformat Markdown (`.md`) secara lokal menggunakan pustaka Python `markitdown`. |
-| `unify-paragraph` | Menggabungkan baris teks yang terpisah akibat pemisah baris tunggal (line break) menjadi satu paragraf yang utuh dan berkesinambungan. |
-
+| Nama Skill           | Gunakan untuk                                                                                                                                                              |
+|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `buat-tabel`         | Membuat berbagai jenis tabel di Quarto markdown dengan format yang tepat (pipe tables, list tables, colspan/rowspan, dan panel/subtables) beserta referensi silangnya.     |
+| `directory-catalog`  | Memetakan dan membuat ringkasan/katalog isi dokumen yang ada di dalam suatu direktori menjadi satu berkas ringkasan.                                                       |
+| `fix-footnotes`      | Mendeteksi angka catatan kaki (footnote) polos pada dokumen Markdown dan mengubahnya menjadi format tag HTML `<sup>` secara otomatis dengan analisis batas jumlah rujukan. |
+| `fix-spaces`         | Membersihkan spasi ekstra di antara huruf-huruf pada kata dalam dokumen Markdown (akibat kesalahan encoding/konversi dari PDF/Word).                                       |
+| `office-to-markdown` | Mengonversi berkas Microsoft Office (`.docx`, `.xlsx`, `.pptx`) menjadi dokumen berformat Markdown (`.md`) secara lokal menggunakan pustaka Python `markitdown`.           |
+| `unify-paragraph`    | Menggabungkan baris teks yang terpisah akibat pemisah baris tunggal (line break) menjadi satu paragraf yang utuh dan berkesinambungan.                                     |
 
 ## _Routing_
 
-Jika Anda perlu ...
+| Saat Anda ingin ...           | Baca ...                                                                                                 |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Melakukan Brainstorming       | [[GEMINI#Membaca Referensi]], [[GEMINI#Membuat Keluaran _Brainstorming_ { buat-keluaran-brainstorming}]] |
+| Mempelajari penggunaan Quarto | [[GEMINI#Mempelajari Penggunaan Quarto]]                                                                 |
+| Menulis                       | [[GEMINI#Menulis _Output_]]                                                                              |
 
 ### Membaca Referensi
 
-Pergi ke [@brainstorm/books](./books) 
+Pergi ke ...
 
-| Ketika Anda...                                      | Pergi ke...      | Lalu baca ini...                          |
-| --------------------------------------------------- | ---------------- | ----------------------------------------- |
-| Perlu melihat referensi                             | `@brainstorm`    | [`@CONTEXT.md`](brainstorm/CONTEXT.md)    |
-| Merevisi keluaran ide                               | `@brainstorm`    | [`@CONTEXT.md`](brainstorm/CONTEXT.md)    |
-| Mendapatkan revisi dari tulisan asli                | `@menulis`       | [`@CONTEXT.md`](menulis/CONTEXT.md)       |
-| Betul-betul menulis buku yang menghasilkan keluaran | `@menulis`       | [`@CONTEXT.md`](menulis/CONTEXT.md)       |
-| Ingin mempelajari dokumentasi tentang Quarto        | `@how-to-quarto` | [`@CONTEXT.md`](how-to-quarto/CONTEXT.md) |
+- [`@brainstorm/books`](./brainstorm/books/) untuk buku-buku.
+- [`@brainstorm/legals`](./brainstorm/legals) untuk peraturan hukum
+- [`@brainstorm/research`](./brainstorm/research/) untuk hasil _deep research_ Gemini
+
+Baca [`@CONTEXT.md`](./brainstorm/CONTEXT.md) untuk penjelasan tiap-tiap sumber
+
+### Membuat Keluaran _Brainstorming_ {#buat-keluaran-brainstorming}
+
+Lihat dulu fail (_file_) terakhir, yakni yang `YYYYMMDD`-nya terbaru, pelajari hubungan antara `x` dalam dua file yang sama `YYYYMMDD`-nya. Huruf `x` yang mengandung "r" adalah respon dari yang tidak mengandung "r". Buat keluarannya dengan memperhatikan [`CONTEXT.md`](./brainstorm/CONTEXT.md) untuk penamaan fail
+
+### Mempelajari Penggunaan Quarto
+
+Pergi ke [`@how-to-quarto`](./how-to-quarto/), baca [`@CONTEXT.md`](./how-to-quarto/CONTEXT.md). Pilih mana yang Anda ingin pelajari sesuai dengan kasus yang Anda sedang hadapi
+
+### Menulis _Output_
+
+- Baca [`@overview-bab-buku.md`](./brainstorm/overview-bab-buku.md) dan pertimbangkan juga hasil brainstorming terbaru di [`@output`](./brainstorm/output/).
+- Pelajari juga teknis penggunaan Quarto
+- Buat hasil tulisan dengan memperhatikan [[menulis/CONTEXT|@CONTEXT]]
+- Buat log sesi dengan memperhatikan [[menulis/CONTEXT|@CONTEXT]]
 
 ## Aturan Umum Proyek
 
-Bahasa utama yang digunakan dalam proyek ini adalah bahasa Indonesia. Bahasa Inggris digunakan HANYA untuk berkomunikasi dengan agen jika diperlukan.
+Bahasa utama yang digunakan dalam proyek ini adalah bahasa Indonesia. Bahasa Inggris digunakan HANYA untuk berkomunikasi dengan agen jika diperlukan atau pada buku yang terlalu sayang untuk ditranslasikan, supaya tidak kehilangan makna.
 
 ## Apa yang tidak boleh dilakukan
 

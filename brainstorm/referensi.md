@@ -152,3 +152,19 @@ Berikut adalah dokumen hasil riset dan kajian literatur tambahan yang dikembangk
 
 - [`Periodization and Evolution of Transportation Modeling in Indonesia.md`](./research/Periodization%20and%20Evolution%20of%20Transportation%20Modeling%20in%20Indonesia.md) : kajian mengenai sejarah, evolusi komputasional, dan periodisasi pemodelan transportasi di Indonesia (dari model empat tahap tradisional hingga pemanfaatan kecerdasan buatan).
 - [`Spatial Plan Evaluation Literature Review.md`](./research/Spatial%20Plan%20Evaluation%20Literature%20Review.md) : kajian mengenai metode evaluasi dalam perencanaan transportasi.
+
+### Makalah Konferensi / Conference Papers
+
+#### [[@rahmadian2023big]]
+
+```bibtex
+@inproceedings{rahmadian2023big,
+  title={Big Data Governance Framework: The Case of Mobile Positioning Data for Official Tourism Statistics In Indonesia},
+  author={Rahmadian, Eko and Virantina, Yulia and Feitosa, Daniel and Zwitter, Andrej and Lestari, Titi Kanti},
+  booktitle={Proceedings of the 64th ISI World Statistics Congress},
+  year={2023},
+  month={July},
+  address={Ottawa, Canada},
+  url={https://www.isi-next.org/abstracts/submission/413/view/}
+}
+```

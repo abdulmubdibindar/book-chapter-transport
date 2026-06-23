@@ -59,6 +59,7 @@ Berikut adalah hasil diskusi sejauh ini.
   - [[20260621ar respon hasil kedua]]
 - 2026-06-22:
   - [[20260622a klasifikasi rencana prasarana sektoral]]
+  - [[20260622b model empat tahap]]
 
 --- Akhir bagian yang diperbarui ---
 

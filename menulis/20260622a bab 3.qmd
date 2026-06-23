@@ -74,7 +74,7 @@ Struktur Komponen Model Empat Tahap Klasik (FSM)
 
 - - Tahapan
   - Mekanisme Komputasional & Teori
-  - Variabel Utama & Formulasi Esensial
+  - Variabel Utama & Formulasi Esensial 
 - - **Bangkitan & Tarikan (*Trip Generation*)**
   - Mengukur jumlah perjalanan harian yang diproduksi oleh perumahan atau ditarik oleh tempat kerja di setiap TAZ.
   - Variabel: Jumlah penduduk, pekerjaan.

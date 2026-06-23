@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "menulis/CONTEXT.md",
+                "file": "brainstorm/research/Periodization and Evolution of Transportation Modeling in Indonesia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CONTEXT"
+              "title": "Periodization and Evolution of Transportation Modeling in Indonesia"
             }
           }
         ],
@@ -281,11 +281,11 @@
     "type": "floating",
     "children": [
       {
-        "id": "da037ec99495ba46",
+        "id": "c9855028a33362ef",
         "type": "window",
         "children": [
           {
-            "id": "604bef8f4bf3f7e9",
+            "id": "6ae6d486080d5fdf",
             "type": "tabs",
             "children": [
               {
@@ -302,30 +302,33 @@
           }
         ],
         "direction": "vertical",
-        "x": 1086,
-        "y": 87,
+        "x": 340,
+        "y": 0,
         "width": 600,
-        "height": 756,
+        "height": 752,
         "maximize": false,
         "zoom": -1
       }
     ]
   },
-  "active": "17e16c12c1b69a60",
+  "active": "e079a684be70962c",
   "lastOpenFiles": [
     "menulis/~WRL0004.tmp",
     "menulis/~WRD0003.tmp",
     "menulis/~WRD0002.tmp",
+    "menulis/~$260622a bab 3.docx",
+    "menulis/~WRL2606.tmp",
+    "menulis/~WRD2582.tmp",
+    "menulis/CONTEXT.md",
+    "brainstorm/overview-bab-buku.md",
     "brainstorm/output/20260621ar respon hasil kedua.md",
     "menulis/assets/tamin-diagram.png",
     "menulis/assets/manheim-diagram.png",
-    "menulis/~$260622a bab 3.docx",
     "menulis/log/20260622a-revisi-iterasi-tiga-integrasi-sppn-dan-kohesi-kalimat.md",
     "menulis/20260622a bab 3_files/mediabag",
     "menulis/20260622a bab 3_files",
     "menulis/20260622a bab 3.docx",
     "menulis/20260622a bab 3.qmd",
-    "brainstorm/overview-bab-buku.md",
     "brainstorm/output/20260622a klasifikasi rencana prasarana sektoral.md",
     "brainstorm/legals/UU Nomor 25 Tahun 2004.md",
     "brainstorm/legals/UU Nomor 25 Tahun 2004.pdf",
@@ -333,9 +336,6 @@
     "brainstorm/research/Periodization and Evolution of Transportation Modeling in Indonesia.md",
     "brainstorm/books/@manheim1979fundamentals.md",
     "brainstorm/output/20260621a telaah konsep dan regulasi.md",
-    "brainstorm/output/part2.txt",
-    "brainstorm/legals/report.json",
-    "menulis/CONTEXT.md",
     "brainstorm/books/@anderson1995guidelines.md",
     "brainstorm/assets/diagram-adaptasi-anderson.png",
     "brainstorm/output/20260618ar respon maks 10 hlm.md",

@@ -101,6 +101,7 @@ Bahasa utama yang digunakan dalam proyek ini adalah bahasa Indonesia. Bahasa Ing
 - Membuat asumsi sendiri tanpa mengajukan pertanyaan klarifikasi
 - Membuat pilihan sendiri ketika Anda tidak yakin
 - Menjadi _black box_ dengan mengerjakan sesuatu yang tidak saya eksplisit suruh, tanpa memberi tahu saya apa yang Anda lakukan, bagaimana Anda melakukannya, dan memaparkan apa akibat yang akan timbul dari pekerjaan Anda
+- Jangan selalu mendukung pernyataan saya. Jadilah kritis. Selalu dukung diri Anda dengan data.
 
 ## Apa yang HARUS dilakukan
 

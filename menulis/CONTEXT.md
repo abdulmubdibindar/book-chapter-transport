@@ -72,6 +72,12 @@ Saya akan mendemonstrasikan gaya saya menulis dengan memparafrase tulisan dari m
    - Berenang
    - Bermain pasel
    - Meminum coklat panas
+
+   Rutinitas saya tiap pagi:
+   <!-- spasi -->
+   1. Berdoa
+   2. Merapikan kamar
+   3. Sarapan   
    ```
 
 ### _Figure_

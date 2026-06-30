@@ -276,43 +276,9 @@
       "qmd-as-md-obsidian:Render Quarto to PDF": false
     }
   },
-  "floating": {
-    "id": "2382f104d13e26b8",
-    "type": "floating",
-    "children": [
-      {
-        "id": "c9855028a33362ef",
-        "type": "window",
-        "children": [
-          {
-            "id": "6ae6d486080d5fdf",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1d3d94f4f068fc5e",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {},
-                  "icon": "lucide-git-fork",
-                  "title": "Graph view"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 340,
-        "y": 0,
-        "width": 600,
-        "height": 752,
-        "maximize": false,
-        "zoom": -1
-      }
-    ]
-  },
   "active": "e079a684be70962c",
   "lastOpenFiles": [
+    "brainstorm/research/Periodization and Evolution of Transportation Modeling in Indonesia.md",
     "menulis/~WRL0004.tmp",
     "menulis/~WRD0003.tmp",
     "menulis/~WRD0002.tmp",
@@ -331,9 +297,7 @@
     "menulis/20260622a bab 3.qmd",
     "brainstorm/output/20260622a klasifikasi rencana prasarana sektoral.md",
     "brainstorm/legals/UU Nomor 25 Tahun 2004.md",
-    "brainstorm/legals/UU Nomor 25 Tahun 2004.pdf",
     "brainstorm/output/20260621b telaah konsep dan regulasi.md",
-    "brainstorm/research/Periodization and Evolution of Transportation Modeling in Indonesia.md",
     "brainstorm/books/@manheim1979fundamentals.md",
     "brainstorm/output/20260621a telaah konsep dan regulasi.md",
     "brainstorm/books/@anderson1995guidelines.md",
